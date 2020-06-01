@@ -1,0 +1,48 @@
+<!--
+<li *ngFor="let c of categorys">
+  {{ c.name }} {{c.id}}
+</li> 
+-->
+
+  <div class="row">
+
+    <div class="col-sm-4">
+
+      <li *ngFor="let c of categorys">
+        {{ c.name }} {{c.id}}
+      </li>
+
+    </div>
+
+    <div class="col-sm-4">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card-body">
+              <h5 class="card-title test-center">Create Category</h5>
+              <form [formGroup]="CategoryForm" (ngSubmit)=(CategoryCreate()) methot="POST">
+
+                <div class="form-label-group">
+                  <label for="inputCatagoryName">Name</label>
+                  <input type= "text">
+                </div>
+
+                <button  class="btn  btn-primary btn-block text-uppercase" type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-4">
+      
+      <li *ngFor="let c of categorys">
+        {{ c.name }} {{c.id}}
+      </li>
+
+    </div>
+  </div>
+

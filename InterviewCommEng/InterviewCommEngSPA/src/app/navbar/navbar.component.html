@@ -1,0 +1,27 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <!--
+ <button mat-icon-button>
+      <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+    </button>
+    -->
+   
+    <h1>CommEng</h1>
+    <span class="menu-spacer"></span>
+    <div>
+      <a mat-button [routerLink]="'/product'"> Products </a>
+      <a mat-button [routerLink]="'/category'"> Categories </a>
+      <a mat-button [routerLink]="'/contacts'"> Contacts </a>
+      <a mat-button [routerLink]="'/create-contact'"> Create Contact </a>
+      <a mat-button [routerLink]="'/activities'"> Activities </a>
+      <a mat-button [routerLink]="'/create-activity'"> Create Activity </a>
+
+    </div>
+  </mat-toolbar-row>
+
+<!--
+   <mat-toolbar-row>
+      <span style="font-size: 12px;">SimpleCRM helps you easily manage your contacts</span>
+  </mat-toolbar-row>
+--> 
+</mat-toolbar>
