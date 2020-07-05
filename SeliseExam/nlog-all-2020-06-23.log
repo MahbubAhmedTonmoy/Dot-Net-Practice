@@ -1,0 +1,12 @@
+2020-06-23 08:59:59.9205|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-23 08:59:59.9694|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-23 08:59:59.9771|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-23 09:05:04.5358|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-23 09:05:04.5782|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-23 09:05:04.5782|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-23 09:05:13.2364|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 32e019bc-6e67-46c0-a9b4-79dc262cf35b.
+2020-06-23 09:05:13.2364|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 32e019bc-6e67-46c0-a9b4-79dc262cf35b failed to provide the correct password.
+2020-06-23 09:05:13.3325|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.
+2020-06-23 09:07:59.2656|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-23 09:07:59.3068|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-23 09:07:59.3068|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam

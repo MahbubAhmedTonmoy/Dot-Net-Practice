@@ -1,0 +1,70 @@
+2020-06-22 10:04:39.6125|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-22 10:04:39.6615|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-22 10:04:39.6681|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-22 10:04:48.8164|INFO|SeliseExam.Controllers.DemoController|no Demo exist 9
+2020-06-22 10:04:54.8819|INFO|SeliseExam.Controllers.DemoController|no Demo exist 9
+2020-06-22 16:49:15.8022|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-22 16:49:15.8568|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-22 16:49:15.8568|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-22 16:50:43.6042|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-22 16:50:43.6441|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-22 16:50:43.6491|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-22 16:50:51.0314|INFO|SeliseExam.Controllers.DemoController|no Demo exist 3
+2020-06-22 16:52:11.1620|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-22 16:52:11.2031|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-22 16:52:11.2031|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-22 17:09:17.5037|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-22 17:09:17.5460|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-22 17:09:17.5460|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-22 17:12:07.1384|INFO|SeliseExam.Controllers.DemoController|saving problem in DemoCOntroller Update method
+2020-06-22 17:22:52.0869|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-22 17:22:52.1280|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-22 17:22:52.1330|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-22 18:17:59.0675|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-22 18:17:59.1083|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-22 18:17:59.1083|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-22 18:24:14.2829|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-22 18:24:14.3266|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-22 18:24:14.3266|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-22 18:25:12.4031|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2020-06-22 18:31:24.1552|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-22 18:31:24.1975|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-22 18:31:24.1975|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-22 18:33:05.9528|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-22 18:33:05.9964|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-22 18:33:05.9964|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-22 19:00:22.3951|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-22 19:00:22.4456|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-22 19:00:22.4456|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-22 19:04:32.1713|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-22 19:04:32.2214|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-22 19:04:32.2319|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-22 19:07:31.0301|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-22 19:07:31.0960|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-22 19:07:31.1132|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-22 19:11:44.8072|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-22 19:11:44.8581|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-22 19:11:44.8581|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-22 21:14:15.4759|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-22 21:14:15.5832|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-22 21:14:15.5961|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-22 21:14:29.3966|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 32e019bc-6e67-46c0-a9b4-79dc262cf35b.
+2020-06-22 21:14:29.4004|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 32e019bc-6e67-46c0-a9b4-79dc262cf35b failed to provide the correct password.
+2020-06-22 21:30:07.3163|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception
+2020-06-22 21:31:16.7344|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-22 21:31:16.7778|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-22 21:31:16.7778|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-22 21:31:23.1822|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 32e019bc-6e67-46c0-a9b4-79dc262cf35b.
+2020-06-22 21:31:23.1822|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 32e019bc-6e67-46c0-a9b4-79dc262cf35b failed to provide the correct password.
+2020-06-22 21:31:23.2304|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.
+2020-06-22 21:47:43.3677|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-22 21:47:43.4085|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-22 21:47:43.4134|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-22 21:47:46.1594|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 32e019bc-6e67-46c0-a9b4-79dc262cf35b.
+2020-06-22 21:47:46.1594|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 32e019bc-6e67-46c0-a9b4-79dc262cf35b failed to provide the correct password.
+2020-06-22 21:54:53.8143|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-22 21:54:53.8603|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-22 21:54:53.8603|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-22 21:54:57.0226|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 32e019bc-6e67-46c0-a9b4-79dc262cf35b.
+2020-06-22 21:54:57.0226|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 32e019bc-6e67-46c0-a9b4-79dc262cf35b failed to provide the correct password.
+2020-06-22 21:54:57.0847|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.

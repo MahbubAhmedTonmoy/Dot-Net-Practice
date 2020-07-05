@@ -1,0 +1,51 @@
+2020-06-27 09:45:15.3470|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-27 09:45:15.3934|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-27 09:45:15.3995|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-27 10:07:09.6721|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-27 10:07:09.7143|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-27 10:07:09.7143|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-27 10:48:08.6643|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-27 10:48:08.7045|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-27 10:48:08.7045|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-27 17:13:28.3776|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-27 17:13:28.4199|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-27 17:13:28.4199|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-27 17:15:44.5279|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-27 17:15:44.5727|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-27 17:15:44.5727|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-27 18:03:52.6994|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-27 18:03:52.7415|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-27 18:03:52.7464|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-27 18:05:41.1022|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-27 18:05:41.1446|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-27 18:05:41.1497|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-27 18:11:04.6904|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-27 18:11:04.7346|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-27 18:11:04.7346|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-27 18:11:54.0996|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-27 18:11:54.1412|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-27 18:11:54.1412|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-27 18:11:59.9576|ERROR|SeliseExam.Controllers.AuthController|   at SeliseExam.JWTToken.JwtGenerator.CreateToken(AppUser user, String[] role) in C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam\JWTToken\JwtGenerator.cs:line 23
+   at SeliseExam.Controllers.AuthController.Login(UserForLoginDTO userForLoginDTO) in C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam\Controllers\AuthController.cs:line 122 Index was outside the bounds of the array.
+2020-06-27 18:12:00.0344|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.
+2020-06-27 18:15:20.4330|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-27 18:15:20.4743|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-27 18:15:20.4794|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-27 18:24:49.4096|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-27 18:24:49.4740|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-27 18:24:49.4805|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-27 22:07:12.6383|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-27 22:07:12.6915|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-27 22:07:12.6967|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-27 22:42:02.1846|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-27 22:42:02.2363|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-27 22:42:02.2418|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-27 22:44:43.6438|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-27 22:44:43.6848|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-27 22:44:43.6848|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-27 22:45:30.9705|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-27 22:45:31.0202|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-27 22:45:31.0258|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
+2020-06-27 22:46:19.9042|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-06-27 22:46:19.9440|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-06-27 22:46:19.9492|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ahmed.mahbub\Desktop\SeliseExam\SeliseExam\SeliseExam
