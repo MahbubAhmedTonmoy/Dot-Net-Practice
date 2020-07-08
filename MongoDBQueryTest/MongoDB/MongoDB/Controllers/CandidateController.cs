@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 using MongoDB.DTO;
 using MongoDB.Model;
@@ -18,21 +19,42 @@ namespace MongoDB.Controllers
         private readonly ICandidateRepository _repo;
         private readonly ILogger<CandidateController> _logger;
 
-        public CandidateController(ILogger<CandidateController> logger, ICandidateRepository repo)
+        private readonly IMemoryCache memoryCache; // in-memory caching
+
+        public CandidateController(ILogger<CandidateController> logger, ICandidateRepository repo, IMemoryCache memoryCache)
         {
             _logger = logger;
             _repo = repo;
+            this.memoryCache = memoryCache;
         }
 
         [HttpGet("all")]
-        public ActionResult GetAll()
+        public List<Candidate> GetAll()
         {
-            var result = _repo.GetCandidates();
-            if(result != null)
+            //cache
+            var cacheKey = "allcandidate";
+            if(!memoryCache.TryGetValue(cacheKey, out List<Candidate> candidatelist))
             {
-                return Ok(result);
+                candidatelist = _repo.GetCandidates();
+                var cacheExpirationOptions = new MemoryCacheEntryOptions
+                {
+                    AbsoluteExpiration = DateTime.Now.AddMinutes(30), // Gets or sets an absolute expiration date for the cache entry.
+                    Priority = CacheItemPriority.Normal,
+                    SlidingExpiration = TimeSpan.FromMinutes(5)  //Gets or sets how long a cache entry can be inactive (e.g. not accessed) before it will be removed
+                };
+                memoryCache.Set(cacheKey, candidatelist, cacheExpirationOptions);
             }
-            return BadRequest();
+            return candidatelist;
+
+            // --- wih out cache-----
+            //var result = _repo.GetCandidates();
+            //if(result != null)
+            //{
+            //    return Ok(result);
+            //}
+            //return BadRequest();
+
+            //---------------------------
         }
 
         [HttpPost("create")]

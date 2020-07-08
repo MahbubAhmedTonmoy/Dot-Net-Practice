@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore\\MongoDBQueryTest\\MongoDB\\MongoDB\\MongoDB.csproj": {}
+    "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDBQueryTest\\MongoDB\\MongoDB\\MongoDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore\\MongoDBQueryTest\\MongoDB\\MongoDB\\MongoDB.csproj": {
+    "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDBQueryTest\\MongoDB\\MongoDB\\MongoDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore\\MongoDBQueryTest\\MongoDB\\MongoDB\\MongoDB.csproj",
+        "projectUniqueName": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDBQueryTest\\MongoDB\\MongoDB\\MongoDB.csproj",
         "projectName": "MongoDB",
-        "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore\\MongoDBQueryTest\\MongoDB\\MongoDB\\MongoDB.csproj",
+        "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDBQueryTest\\MongoDB\\MongoDB\\MongoDB.csproj",
         "packagesPath": "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore\\MongoDBQueryTest\\MongoDB\\MongoDB\\obj\\",
+        "outputPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDBQueryTest\\MongoDB\\MongoDB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ahmed.mahbub\\AppData\\Roaming\\NuGet\\NuGet.Config",

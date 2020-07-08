@@ -30,6 +30,7 @@ namespace MongoDB
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddMemoryCache(); // added to use in-memory cache
             services.AddMongoDb(Configuration);
             services.AddTransient<IOrganizationRepository, OrganizationRepository>();
             services.AddTransient<ICandidateRepository, CandidateRepository>();
