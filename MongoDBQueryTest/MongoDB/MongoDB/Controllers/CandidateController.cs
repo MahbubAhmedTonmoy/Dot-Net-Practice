@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 using MongoDB.DTO;
@@ -20,16 +21,30 @@ namespace MongoDB.Controllers
         private readonly ILogger<CandidateController> _logger;
 
         private readonly IMemoryCache memoryCache; // in-memory caching
+        private readonly IDistributedCache distributedCache; // radis caching
 
-        public CandidateController(ILogger<CandidateController> logger, ICandidateRepository repo, IMemoryCache memoryCache)
+        public CandidateController(ILogger<CandidateController> logger, ICandidateRepository repo, IMemoryCache memoryCache, 
+            IDistributedCache distributedCache)
         {
             _logger = logger;
             _repo = repo;
             this.memoryCache = memoryCache;
+            this.distributedCache = distributedCache;
+        }
+        [HttpGet("all")]
+        public ActionResult GetAllWithOutCache()
+        {
+            var result = _repo.GetCandidates();
+            if (result != null)
+            {
+                return Ok(result);
+            }
+            return BadRequest();
+
         }
 
-        [HttpGet("all")]
-        public List<Candidate> GetAll()
+        [HttpGet("allinmemorycache")]
+        public List<Candidate> GetAllInMemoryCache()
         {
             //cache
             var cacheKey = "allcandidate";
@@ -45,16 +60,12 @@ namespace MongoDB.Controllers
                 memoryCache.Set(cacheKey, candidatelist, cacheExpirationOptions);
             }
             return candidatelist;
+        }
 
-            // --- wih out cache-----
-            //var result = _repo.GetCandidates();
-            //if(result != null)
-            //{
-            //    return Ok(result);
-            //}
-            //return BadRequest();
-
-            //---------------------------
+        [HttpGet("allradiscache")]
+        public List<Candidate> GetAll()
+        {
+            return null;
         }
 
         [HttpPost("create")]

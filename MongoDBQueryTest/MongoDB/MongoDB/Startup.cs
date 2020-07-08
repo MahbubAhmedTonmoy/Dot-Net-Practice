@@ -31,6 +31,13 @@ namespace MongoDB
         {
             services.AddControllers();
             services.AddMemoryCache(); // added to use in-memory cache
+
+            // added to use Redis cache
+            services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = "localhost:6379";
+            });
+
             services.AddMongoDb(Configuration);
             services.AddTransient<IOrganizationRepository, OrganizationRepository>();
             services.AddTransient<ICandidateRepository, CandidateRepository>();
