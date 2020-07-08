@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yqaHY14u9KidiSll5g1WK5plec5LEy0J/lYz5MdHL68DiJIZmSIss2Puk0NmD88yUeJgXRAzqpO3oQwsy6YDGQ==",
+  "dgSpecHash": "NGtY4urKW9VIOwnN1blL7NR8d6Fs0W1larERqNUnjZQVxb/F+7b4M3dpRJM8kkXLQ9fqmq5PXiSJvC7Oyvw/ng==",
   "success": true,
   "projectFilePath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDBQueryTest\\MongoDB\\MongoDB\\MongoDB.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\mongodb.driver.core\\2.10.4\\mongodb.driver.core.2.10.4.nupkg.sha512",
     "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\mongodb.libmongocrypt\\1.0.0\\mongodb.libmongocrypt.1.0.0.nupkg.sha512",
     "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
+    "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\pipelines.sockets.unofficial\\2.0.17\\pipelines.sockets.unofficial.2.0.17.nupkg.sha512",
     "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",

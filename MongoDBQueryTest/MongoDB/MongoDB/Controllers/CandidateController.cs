@@ -9,7 +9,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using System.Threading.Tasks;
+using System.Text;
+using Newtonsoft.Json;
+using Microsoft.AspNetCore.DataProtection;
 
 namespace MongoDB.Controllers
 {
@@ -63,9 +65,27 @@ namespace MongoDB.Controllers
         }
 
         [HttpGet("allradiscache")]
-        public List<Candidate> GetAll()
+        public async System.Threading.Tasks.Task<List<Candidate>> GetAllAsync()
         {
-            return null;
+            var cacheKey = "allCandidateUsingRadisCache";
+            List<Candidate> candidates = null;
+            string serializedCandidates;
+            var encodedCandidates =await distributedCache.GetAsync(cacheKey);
+            if(encodedCandidates != null)
+            {
+                serializedCandidates = Encoding.UTF8.GetString(encodedCandidates);
+                candidates = JsonConvert.DeserializeObject<List<Candidate>>(serializedCandidates);
+            }
+            else
+            {
+                candidates = _repo.GetCandidates();
+                serializedCandidates = JsonConvert.SerializeObject(candidates);
+                encodedCandidates = Encoding.UTF8.GetBytes(serializedCandidates);
+                var options = new DistributedCacheEntryOptions()
+                    .SetAbsoluteExpiration(DateTime.Now.AddHours(2));
+                await distributedCache.SetAsync(cacheKey, encodedCandidates, options);
+            }
+            return candidates;
         }
 
         [HttpPost("create")]

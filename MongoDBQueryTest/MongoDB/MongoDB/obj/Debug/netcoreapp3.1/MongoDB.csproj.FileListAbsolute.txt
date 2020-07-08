@@ -78,3 +78,4 @@ C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDBQueryTest\MongoDB\MongoDB\
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDBQueryTest\MongoDB\MongoDB\obj\Debug\netcoreapp3.1\MongoDB.csproj.CoreCompileInputs.cache
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDBQueryTest\MongoDB\MongoDB\obj\Debug\netcoreapp3.1\MongoDB.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDBQueryTest\MongoDB\MongoDB\obj\Debug\netcoreapp3.1\MongoDB.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDBQueryTest\MongoDB\MongoDB\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
