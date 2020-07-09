@@ -14,6 +14,7 @@ namespace MongoDB.AutoMapper
         {
             CreateMap<Organization, OrganizationSectorSearchDTO>();
             CreateMap<Candidate, CandidateSearchResult>();
+            CreateMap<Candidate, GetCandidateDataDTO>();
         }
     }
 }

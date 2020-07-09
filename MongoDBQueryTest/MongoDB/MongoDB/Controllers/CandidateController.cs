@@ -46,11 +46,11 @@ namespace MongoDB.Controllers
         }
 
         [HttpGet("allinmemorycache")]
-        public List<Candidate> GetAllInMemoryCache()
+        public List<GetCandidateDataDTO> GetAllInMemoryCache()
         {
             //cache
             var cacheKey = "allcandidate";
-            if(!memoryCache.TryGetValue(cacheKey, out List<Candidate> candidatelist))
+            if(!memoryCache.TryGetValue(cacheKey, out List<GetCandidateDataDTO> candidatelist))
             {
                 candidatelist = _repo.GetCandidates();
                 var cacheExpirationOptions = new MemoryCacheEntryOptions
@@ -65,16 +65,16 @@ namespace MongoDB.Controllers
         }
 
         [HttpGet("allradiscache")]
-        public async System.Threading.Tasks.Task<List<Candidate>> GetAllAsync()
+        public async System.Threading.Tasks.Task<List<GetCandidateDataDTO>> GetAllAsync()
         {
             var cacheKey = "allCandidateUsingRadisCache";
-            List<Candidate> candidates = null;
+            List<GetCandidateDataDTO> candidates = null;
             string serializedCandidates;
             var encodedCandidates =await distributedCache.GetAsync(cacheKey);
             if(encodedCandidates != null)
             {
                 serializedCandidates = Encoding.UTF8.GetString(encodedCandidates);
-                candidates = JsonConvert.DeserializeObject<List<Candidate>>(serializedCandidates);
+                candidates = JsonConvert.DeserializeObject<List<GetCandidateDataDTO>>(serializedCandidates);
             }
             else
             {

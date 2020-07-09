@@ -36,9 +36,11 @@ namespace MongoDB.Repository
             return result;
         }
 
-        public List<Candidate> GetCandidates()
+        public List<GetCandidateDataDTO> GetCandidates()
         {
-            return collection.Find(FilterDefinition<Candidate>.Empty).ToList();
+            var tempResult =  collection.Find(FilterDefinition<Candidate>.Empty).ToList();
+            var result = _mapper.Map<List<Candidate>, List<GetCandidateDataDTO>>(tempResult);
+            return result;
         }
 
         public List<Candidate> GetCandidates(List<string> email)

@@ -9,7 +9,7 @@ namespace MongoDB.Repository
 {
     public interface ICandidateRepository
     {
-        List<Candidate> GetCandidates();
+        List<GetCandidateDataDTO> GetCandidates();
         List<Candidate> GetCandidates(List<string> email);
         Candidate GetCandidate(string email);
         void Create(Candidate cand);
