@@ -58,18 +58,52 @@ namespace MongoDB.Repository
 
         public List<CandidateSearchResult> SearchCandidate(CandidateSearchPermsDTO parms)
         {
+            //search by Email / name
+            if (!string.IsNullOrWhiteSpace(parms.EmailOrName))
+            {
+                var nameOrEmailFilter = Builders<Candidate>.Filter.Eq("Name", parms.EmailOrName);
+                nameOrEmailFilter |= Builders<Candidate>.Filter.Eq("FirstName", parms.EmailOrName);
+                nameOrEmailFilter |= Builders<Candidate>.Filter.Eq("LastName", parms.EmailOrName);
+                nameOrEmailFilter |= Builders<Candidate>.Filter.Eq("Email", parms.EmailOrName);
+                var searchByEmailOrName = collection.Find(nameOrEmailFilter).ToList();
+                var resultsearchByEmailOrName = _mapper.Map<List<Candidate>, List<CandidateSearchResult>>(searchByEmailOrName);
+                return resultsearchByEmailOrName;
+            }
+
+
             //db.getCollection('Candidates').aggregate([
             //  {$match: { "Functions": {$in: ["ICT"] } }},
             //   {$match: { "JobLocations": {$in: ["EASTERN_SWITZERLAND"] } }},
             //   {$match: { "SelectedCompanies.Sector": {$in: ["MEDIA"] } }}
             //  ])
-            var f = parms.Functions.AsEnumerable(); ;
-            var filter = Builders<Candidate>.Filter.In("Functions", parms.Functions);
-            var filter2 = Builders<Candidate>.Filter.In("JobLocations", parms.Locations);
-            var filter3 = Builders<Candidate>.Filter.In("SelectedCompanies.Sector", parms.CmpSector);
+            var ans = collection.Aggregate();
+            if (parms.Functions != null && parms.Functions.Any())
+            {
+                var filter = Builders<Candidate>.Filter.In("Functions", parms.Functions);
+                ans = ans.Match(filter);
+            }
 
-            var ans = collection.Aggregate().Match(filter2).Match(filter).Match(filter3).ToList();
-            var result = _mapper.Map<List<Candidate>, List<CandidateSearchResult>>(ans);
+            if (parms.Locations!=null && parms.Locations.Any())
+            {
+                var filter2 = Builders<Candidate>.Filter.In("JobLocations", parms.Locations);
+                ans = ans.Match(filter2);
+            }
+            if (parms.CompanySectors != null && parms.CompanySectors.Any())
+            {
+                var filter3 = Builders<Candidate>.Filter.In("SelectedCompanies.Sector", parms.CompanySectors);
+                ans = ans.Match(filter3);
+            }
+            if (parms.OrganizationNames != null && parms.OrganizationNames.Any())
+            {
+                var filter4 = new Dictionary<string, object>
+                {
+                    {"SelectedCompanies.Name", new BsonDocument(new Dictionary<string, object>{ { "$in", parms.OrganizationNames} })}
+                };
+                ans = ans.Match(new BsonDocument(filter4));
+            }
+            
+            //var a = collection.Aggregate().Match(filter2).Match(filter).Match(filter3).Match(new BsonDocument(filter4)).ToList();
+            var result = _mapper.Map<List<Candidate>, List<CandidateSearchResult>>(ans.ToList());
             return result;
 
 

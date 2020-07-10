@@ -9,9 +9,11 @@ namespace MongoDB.DTO
 {
     public class CandidateSearchPermsDTO
     {
+        public string EmailOrName { get; set; }
         public List<string> Functions { get; set; }
         public List<string> Locations { get; set; }
-        public List<string> CmpSector { get; set; }
+        public List<string> CompanySectors { get; set; }
+        public List<string> OrganizationNames { get; set; }
     }
 
     public class CandidateSearchResult

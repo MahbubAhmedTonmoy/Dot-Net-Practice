@@ -16,6 +16,8 @@ namespace MongoDB.Repository
         void CreateMany(List<Candidate> cand);
         void Update(Candidate cand);
 
+        // search by name or email
+        // then add sector, function, location, organization name
         List<CandidateSearchResult> SearchCandidate(CandidateSearchPermsDTO parms);
     }
 }
