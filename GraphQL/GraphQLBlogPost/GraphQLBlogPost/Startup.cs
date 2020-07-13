@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using GraphiQl;
+using GraphQL;
+using GraphQL.Http;
+using GraphQL.Types;
+using GraphQLBlogPost.Models.Type;
+using GraphQLBlogPost.Repository;
+using GraphQLBlogPost.Service;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -24,6 +30,16 @@ namespace GraphQLBlogPost
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IDependencyResolver>(_ => new
+                    FuncDependencyResolver(_.GetRequiredService));
+            services.AddScoped<IDocumentExecuter, DocumentExecuter>();
+            services.AddScoped<IDocumentWriter, DocumentWriter>();
+            services.AddScoped<AuthorService>();
+            services.AddScoped<AuthorRepository>();
+            services.AddScoped<AuthorQuery>();
+            services.AddScoped<AuthorType>();
+            services.AddScoped<BlogPostType>();
+            services.AddScoped<ISchema, GraphQLDemoSchema>();
             services.AddControllersWithViews();
         }
 
@@ -49,9 +65,7 @@ namespace GraphQLBlogPost
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapDefaultControllerRoute();
             });
         }
     }
