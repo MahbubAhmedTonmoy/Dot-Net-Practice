@@ -13,18 +13,18 @@ namespace NoteBookAPI.Repository
     {
 
         private readonly ApplicationDataContext _db;
-        private readonly List<LikeObserver> likeObservers = new List<LikeObserver>();
+        private readonly List<Observer<Like>> likeObservers = new List<Observer<Like>>();
         public LikeRepository(ApplicationDataContext db): base(db)
         {
             _db = db;
         }
 
-        public void Attach(LikeObserver o)
+        public void Attach(Observer<Like> o)
         {
             likeObservers.Add(o);
         }
 
-        public void Delete(LikeObserver o)
+        public void Delete(Observer<Like> o)
         {
             var findObserver = likeObservers.IndexOf(o);
             likeObservers.RemoveAt(findObserver);

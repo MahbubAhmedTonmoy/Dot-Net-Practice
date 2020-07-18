@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace NoteBookAPI.Observer
 {
-    public interface Subject
+    public interface Subject<T>
     {
-        public void Attach(LikeObserver o);
-        public void Delete(LikeObserver o);
-        public void Notify(Like like);
+        public void Attach(Observer<T> o);
+        public void Delete(Observer<T> o);
+        public void Notify(T entity);
     }
-    public interface LikeObserver
+    public interface Observer<T>
     {
-        public void Update(Like like);
+        public void Update(T entity);
     }
 }

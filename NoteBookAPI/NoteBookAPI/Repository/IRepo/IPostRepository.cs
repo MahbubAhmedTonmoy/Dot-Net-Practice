@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NoteBookAPI.Repository.IRepo
 {
-    public interface IPostRepository : IRepository<Post>, LikeObserver
+    public interface IPostRepository : IRepository<Post>, Observer<Like>
     {
         //Post Get(int id);
         //Task<IEnumerable<Post>> GetAll();

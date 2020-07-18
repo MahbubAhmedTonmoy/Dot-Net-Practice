@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NoteBookAPI.Repository.IRepo
 {
-    public interface ILikeRepository: IRepository<Like>, Subject
+    public interface ILikeRepository: IRepository<Like>, Subject<Like>
     {
         //void Add(Like like);
     }
