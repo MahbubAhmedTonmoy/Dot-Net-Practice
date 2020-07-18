@@ -1,4 +1,5 @@
 ﻿using NoteBookAPI.Model;
+using NoteBookAPI.Observer;
 using System;
 
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NoteBookAPI.Repository.IRepo
 {
-    public interface IPostRepository : IRepository<Post>
+    public interface IPostRepository : IRepository<Post>, LikeObserver
     {
         //Post Get(int id);
         //Task<IEnumerable<Post>> GetAll();

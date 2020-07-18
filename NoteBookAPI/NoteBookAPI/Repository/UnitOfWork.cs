@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using NoteBookAPI.Data;
+using NoteBookAPI.Observer;
 using NoteBookAPI.Repository.IRepo;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,7 @@ namespace NoteBookAPI.Repository
         public IPostRepository PostRepository { get; private set; }
         private readonly ILogger<PostRepository> _log;
         public ILikeRepository LikeRepository { get; private set; }
-
+        public LikeObserver _LikeObserver;
         public ICommentRepository commentRepository { get; private set; }
         public UnitOfWork(ApplicationDataContext db, ILogger<PostRepository> log)
         {

@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using NLog.Fluent;
 using NoteBookAPI.Data;
 using NoteBookAPI.Model;
+using NoteBookAPI.Observer;
 using NoteBookAPI.Repository.IRepo;
 using System;
 using System.Collections.Generic;
@@ -15,7 +16,7 @@ namespace NoteBookAPI.Repository
     {
         private readonly ApplicationDataContext _db;
         private readonly ILogger<PostRepository> _log;
-        public PostRepository(ApplicationDataContext db, ILogger<PostRepository> log): base(db)
+        public PostRepository(ApplicationDataContext db, ILogger<PostRepository> log) : base(db)
         {
             _db = db;
             _log = log;
@@ -67,6 +68,13 @@ namespace NoteBookAPI.Repository
             var post = Get(PostId);
             int count = Convert.ToInt32(post.TotalLike);
             return count;
+        }
+
+        public void Update(Like like)
+        {
+            var postAvailable = this.Get(like.PostId);
+            postAvailable.TotalLike = postAvailable.TotalLike + 1;
+            this.UpdatePost(postAvailable);
         }
 
         public void UpdatePost(Post post)

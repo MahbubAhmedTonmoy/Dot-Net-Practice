@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using NoteBookAPI.Model;
+using NoteBookAPI.Observer;
+using NoteBookAPI.Repository;
 using NoteBookAPI.Repository.IRepo;
 using System;
 using System.Collections.Generic;
@@ -31,9 +33,10 @@ namespace NoteBookAPI.Controllers
             if(postAvailable != null)
             {
                 _unitOfWork.LikeRepository.Create(like);
-
-                postAvailable.TotalLike = postAvailable.TotalLike + 1;
-                _unitOfWork.PostRepository.UpdatePost(postAvailable);
+                _unitOfWork.LikeRepository.Attach(_unitOfWork.PostRepository);
+                _unitOfWork.LikeRepository.Notify(like);
+                //postAvailable.TotalLike = postAvailable.TotalLike + 1;
+                //_unitOfWork.PostRepository.UpdatePost(postAvailable);
                 var result =await _unitOfWork.Save();
                 if(result == 0) BadRequest("saving problem");
                 return Ok($"liked at post {like.PostId}");

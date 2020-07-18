@@ -5382,11 +5382,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore\\BSAPI\\NoteBookAPI\\NoteBookAPI\\NoteBookAPI.csproj",
+      "projectUniqueName": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\NoteBookAPI\\NoteBookAPI\\NoteBookAPI.csproj",
       "projectName": "NoteBookAPI",
-      "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore\\BSAPI\\NoteBookAPI\\NoteBookAPI\\NoteBookAPI.csproj",
+      "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\NoteBookAPI\\NoteBookAPI\\NoteBookAPI.csproj",
       "packagesPath": "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore\\BSAPI\\NoteBookAPI\\NoteBookAPI\\obj\\",
+      "outputPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\NoteBookAPI\\NoteBookAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ahmed.mahbub\\AppData\\Roaming\\NuGet\\NuGet.Config",
