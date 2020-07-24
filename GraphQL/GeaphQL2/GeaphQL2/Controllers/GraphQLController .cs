@@ -20,20 +20,47 @@ namespace GeaphQL2.Controllers
 
         public GraphQLController(IAuthorRepository repo) => _repo = repo;
 
-        public async Task<IActionResult> Post([FromBody] GraphQLQuery query)
+        [HttpPost("query")]
+        public async Task<IActionResult> Query([FromBody] GraphQLQuery command)
         {
-            var inputs = query.Variables.ToInputs();
+            var inputs = command.Variables.ToInputs();
 
             var schema = new Schema
             {
-                Query = new AuthorQuery(_repo)
+                Query = new Query(_repo)
             };
 
             var result = await new DocumentExecuter().ExecuteAsync(_ =>
             {
                 _.Schema = schema;
-                _.Query = query.Query;
-                _.OperationName = query.OperationName;
+                _.Query = command.Query;
+                _.OperationName = command.OperationName;
+                _.Inputs = inputs;
+            });
+
+            if (result.Errors?.Count > 0)
+            {
+                return BadRequest();
+            }
+
+            return Ok(result.Data);
+        }
+
+        [HttpPost("command")]
+        public async Task<IActionResult> Command([FromBody] GraphQLQuery command)
+        {
+            var inputs = command.Variables.ToInputs();
+
+            var schema = new Schema
+            {
+                Mutation = new Mutation(_repo)
+            };
+
+            var result = await new DocumentExecuter().ExecuteAsync(_ =>
+            {
+                _.Schema = schema;
+                _.Mutation = command.Mutation;
+                _.OperationName = command.OperationName;
                 _.Inputs = inputs;
             });
 

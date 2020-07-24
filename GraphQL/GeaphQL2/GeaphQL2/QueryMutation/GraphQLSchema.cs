@@ -11,7 +11,7 @@ namespace GeaphQL2.QueryMutation
     {
         public GraphQLSchema(IDependencyResolver resolver) : base(resolver)
         {
-            Query = resolver.Resolve<AuthorQuery>();
+            Query = resolver.Resolve<Query>();
             Mutation = resolver.Resolve<Mutation>();
         }
     }

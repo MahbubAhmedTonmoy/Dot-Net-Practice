@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace GeaphQL2.QueryMutation
 {
-    public class AuthorQuery : ObjectGraphType
+    public class Query : ObjectGraphType
     {
-        public AuthorQuery(IAuthorRepository _repo)
+        public Query(IAuthorRepository _repo)
         {
             Field<AuthorType>(
                 "Author",
