@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using GeaphQL2.DataContext;
-using GeaphQL2.Query;
+using GeaphQL2.QueryMutation;
 using GeaphQL2.Repository;
 using GraphQL;
 using GraphQL.Types;

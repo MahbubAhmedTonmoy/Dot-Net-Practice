@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GeaphQL2.Query
+namespace GeaphQL2.QueryMutation
 {
     public class AuthorQuery : ObjectGraphType
     {

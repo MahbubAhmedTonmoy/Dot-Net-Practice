@@ -11,5 +11,6 @@ namespace GeaphQL2.Repository
 
         List<Author> GetAllAuthors();
         Author GetAuthorById(string id);
+        Author CreateAuthor(Author author);
     }
 }

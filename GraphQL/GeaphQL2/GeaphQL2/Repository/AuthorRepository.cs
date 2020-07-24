@@ -15,6 +15,15 @@ namespace GeaphQL2.Repository
         {
             _db = db;
         }
+
+        public Author CreateAuthor(Author author)
+        {
+            author.Id = Guid.NewGuid().ToString();
+            _db.Add(author);
+            _db.SaveChanges();
+            return author;
+        }
+
         public List<Author> GetAllAuthors()
         {
             return _db.Authors.Include(x => x.Books).ToList();

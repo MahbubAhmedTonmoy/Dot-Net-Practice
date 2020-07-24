@@ -29,4 +29,12 @@ namespace GeaphQL2.Models.Types
             Field(x => x.Books, type: typeof(ListGraphType<BookType>)).Description("Author's books");
         }
     }
+    public class AuthorInputType : InputObjectGraphType
+    {
+        public AuthorInputType()
+        {
+            Name = "AuthorInput";
+            Field<NonNullGraphType<StringGraphType>>("name");
+       }
+    }
 }
