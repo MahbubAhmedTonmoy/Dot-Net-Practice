@@ -1,0 +1,10 @@
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\bin\Debug\netcoreapp3.1\SignalR Core.exe
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\obj\Debug\netcoreapp3.1\SignalR Core.csprojAssemblyReference.cache
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\obj\Debug\netcoreapp3.1\SignalR Core.AssemblyInfoInputs.cache
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\obj\Debug\netcoreapp3.1\SignalR Core.AssemblyInfo.cs
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\obj\Debug\netcoreapp3.1\SignalR Core.RazorTargetAssemblyInfo.cache
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\obj\Debug\netcoreapp3.1\staticwebassets\SignalR Core.StaticWebAssets.Manifest.cache
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\obj\Debug\netcoreapp3.1\staticwebassets\SignalR Core.StaticWebAssets.xml
