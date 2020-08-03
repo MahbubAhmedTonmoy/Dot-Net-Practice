@@ -8,3 +8,16 @@ C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\obj\Deb
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\obj\Debug\netcoreapp3.1\SignalR Core.RazorTargetAssemblyInfo.cache
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\obj\Debug\netcoreapp3.1\staticwebassets\SignalR Core.StaticWebAssets.Manifest.cache
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\obj\Debug\netcoreapp3.1\staticwebassets\SignalR Core.StaticWebAssets.xml
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\bin\Debug\netcoreapp3.1\SignalR Core.deps.json
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\bin\Debug\netcoreapp3.1\SignalR Core.runtimeconfig.json
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\bin\Debug\netcoreapp3.1\SignalR Core.runtimeconfig.dev.json
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\bin\Debug\netcoreapp3.1\SignalR Core.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\bin\Debug\netcoreapp3.1\SignalR Core.pdb
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\bin\Debug\netcoreapp3.1\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\obj\Debug\netcoreapp3.1\SignalR Core.csproj.CoreCompileInputs.cache
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\obj\Debug\netcoreapp3.1\SignalR Core.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\obj\Debug\netcoreapp3.1\SignalR Core.csproj.CopyComplete
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\obj\Debug\netcoreapp3.1\SignalR Core.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\obj\Debug\netcoreapp3.1\SignalR Core.pdb
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SignalR Core\SignalR Core\obj\Debug\netcoreapp3.1\SignalR Core.genruntimeconfig.cache
