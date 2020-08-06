@@ -1,0 +1,634 @@
+/* 1 */
+{
+    "_id" : ObjectId("5efc3f811be50a32d8534262"),
+    "Sector" : "INFORMATION",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Oppo",
+    "IsActive" : false,
+    "OrganizationId" : "1900",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5efc3f811be50a32d8534263"),
+    "Sector" : "INFORMATION",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "MI",
+    "IsActive" : false,
+    "OrganizationId" : "1901",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5efc44727718614fa0dd1195"),
+    "Sector" : "INFORMATION",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Samsung",
+    "IsActive" : false,
+    "OrganizationId" : "1904",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5efc44727718614fa0dd1196"),
+    "Sector" : "INFORMATION",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Nokia",
+    "IsActive" : false,
+    "OrganizationId" : "1903",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5efe85f8e87055193ceaef3e"),
+    "Sector" : "MEDIA",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "ATN",
+    "IsActive" : false,
+    "OrganizationId" : "1905",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5efe85f8e87055193ceaef3f"),
+    "Sector" : "MEDIA",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Bangala Vision",
+    "IsActive" : false,
+    "OrganizationId" : "1907",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5efe85f8e87055193ceaef40"),
+    "Sector" : "MEDIA",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "RTV",
+    "IsActive" : false,
+    "OrganizationId" : "1908",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("5efe85f8e87055193ceaef41"),
+    "Sector" : "MEDIA",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Shomoy TV",
+    "IsActive" : false,
+    "OrganizationId" : "1906",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("5efe8654e87055193ceaef42"),
+    "Sector" : "MEDIA",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Channel 9",
+    "IsActive" : false,
+    "OrganizationId" : "1909",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("5efe8654e87055193ceaef43"),
+    "Sector" : "MEDIA",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Gan Bangla",
+    "IsActive" : false,
+    "OrganizationId" : "1910",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("5efe8654e87055193ceaef44"),
+    "Sector" : "MEDIA",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Machranga",
+    "IsActive" : false,
+    "OrganizationId" : "1911",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("5efe8654e87055193ceaef45"),
+    "Sector" : "MEDIA",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "GTV",
+    "IsActive" : false,
+    "OrganizationId" : "1912",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("5efe86efe87055193ceaef46"),
+    "Sector" : "FINANCIAL_SERVICES",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Southeast Bank",
+    "IsActive" : false,
+    "OrganizationId" : "1913",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("5efe86efe87055193ceaef47"),
+    "Sector" : "FINANCIAL_SERVICES",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Brac Bank",
+    "IsActive" : false,
+    "OrganizationId" : "1914",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("5efe86efe87055193ceaef48"),
+    "Sector" : "FINANCIAL_SERVICES",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Dhaka Bank",
+    "IsActive" : false,
+    "OrganizationId" : "1915",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("5efe86efe87055193ceaef49"),
+    "Sector" : "FINANCIAL_SERVICES",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Bangladesh Bank",
+    "IsActive" : false,
+    "OrganizationId" : "1916",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("5efe86efe87055193ceaef4a"),
+    "Sector" : "FINANCIAL_SERVICES",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Lanka Bangla",
+    "IsActive" : false,
+    "OrganizationId" : "1917",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("5efe8775e87055193ceaef4b"),
+    "Sector" : "TRAVEL",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "tour palace",
+    "IsActive" : false,
+    "OrganizationId" : "1918",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("5efe8775e87055193ceaef4c"),
+    "Sector" : "TRAVEL",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "toure care",
+    "IsActive" : false,
+    "OrganizationId" : "1919",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("5efe8775e87055193ceaef4d"),
+    "Sector" : "TRAVEL",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Vromon special",
+    "IsActive" : false,
+    "OrganizationId" : "1920",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("5efe8775e87055193ceaef4e"),
+    "Sector" : "TRAVEL",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Bangladesh tour",
+    "IsActive" : false,
+    "OrganizationId" : "1921",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("5efe8775e87055193ceaef4f"),
+    "Sector" : "TRAVEL",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "SEE today tour",
+    "IsActive" : false,
+    "OrganizationId" : "1922",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("5efe87dce87055193ceaef50"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "BMW",
+    "IsActive" : false,
+    "OrganizationId" : "1923",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("5efe87dce87055193ceaef51"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "MAZDA",
+    "IsActive" : false,
+    "OrganizationId" : "1924",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("5efe87dce87055193ceaef52"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Volvo",
+    "IsActive" : false,
+    "OrganizationId" : "1925",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("5efe87dce87055193ceaef53"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "ODI",
+    "IsActive" : false,
+    "OrganizationId" : "1926",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("5efe87dce87055193ceaef54"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Ferari",
+    "IsActive" : false,
+    "OrganizationId" : "1927",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("5efe8856e87055193ceaef55"),
+    "Sector" : "MEDICINE",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Dahaka Medical",
+    "IsActive" : false,
+    "OrganizationId" : "1928",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("5efe8856e87055193ceaef56"),
+    "Sector" : "MEDICINE",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Ibnesina",
+    "IsActive" : false,
+    "OrganizationId" : "1929",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("5efe8856e87055193ceaef57"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "LABAID",
+    "IsActive" : false,
+    "OrganizationId" : "1930",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("5efe8856e87055193ceaef58"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "APPOLO",
+    "IsActive" : false,
+    "OrganizationId" : "1931",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("5efe8856e87055193ceaef59"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "Shikder Medical",
+    "IsActive" : false,
+    "OrganizationId" : "1932",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("5efe8902e87055193ceaef5a"),
+    "Sector" : "ELECTRIACL",
+    "Function" : "",
+    "Address" : "Dhaka",
+    "Name" : "BRB",
+    "IsActive" : false,
+    "OrganizationId" : "1902",
+    "OrganizationUrl" : "samsung.com"
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db392"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "Autoneum",
+    "IsActive" : true,
+    "OrganizationId" : "1933",
+    "OrganizationUrl" : "www.autoneum.com"
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db393"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "BMW",
+    "IsActive" : true,
+    "OrganizationId" : "1934",
+    "OrganizationUrl" : "www.bmw.ch"
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db394"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "Carrosserie Hess",
+    "IsActive" : true,
+    "OrganizationId" : "1935",
+    "OrganizationUrl" : "www.hess-ag.ch"
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db395"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "EvoBus",
+    "IsActive" : true,
+    "OrganizationId" : "1936",
+    "OrganizationUrl" : "www.evobus.com/de-ch/"
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db396"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "FCA Switzerland",
+    "IsActive" : true,
+    "OrganizationId" : "1937",
+    "OrganizationUrl" : "www.fiat.ch"
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db397"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "Ford",
+    "IsActive" : true,
+    "OrganizationId" : "1938",
+    "OrganizationUrl" : "www.ford.ch"
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db398"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "General Motors",
+    "IsActive" : true,
+    "OrganizationId" : "1939",
+    "OrganizationUrl" : "www.gm.com/"
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db399"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "Iveco",
+    "IsActive" : true,
+    "OrganizationId" : "1940",
+    "OrganizationUrl" : "www.iveco.com/switzerland-de"
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db39a"),
+    "Sector" : "MACHINES",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "Linde Material Handling Schweiz",
+    "IsActive" : true,
+    "OrganizationId" : "1941",
+    "OrganizationUrl" : "www.linde-mh.ch/de/country_site_ch/home.html"
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db39b"),
+    "Sector" : "CONSTRUCTION",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "Menzi Muck",
+    "IsActive" : true,
+    "OrganizationId" : "1942",
+    "OrganizationUrl" : "www.menzimuck.com"
+}
+
+/* 44 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db39c"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "Mercedes-Benz",
+    "IsActive" : true,
+    "OrganizationId" : "1943",
+    "OrganizationUrl" : "www.mercedes-benz.ch"
+}
+
+/* 45 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db39d"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "Normet International",
+    "IsActive" : true,
+    "OrganizationId" : "1944",
+    "OrganizationUrl" : "www.normet.com"
+}
+
+/* 46 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db39e"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "PSA Peugeot Citroën",
+    "IsActive" : true,
+    "OrganizationId" : "1945",
+    "OrganizationUrl" : "www.peugeot.ch"
+}
+
+/* 47 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db39f"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "Sauber Motorsport",
+    "IsActive" : true,
+    "OrganizationId" : "1946",
+    "OrganizationUrl" : "www.sauberf1team.com"
+}
+
+/* 48 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db3a0"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "Scania",
+    "IsActive" : true,
+    "OrganizationId" : "1947",
+    "OrganizationUrl" : "www.scania.ch"
+}
+
+/* 49 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db3a1"),
+    "Sector" : "AUTOMOBILE",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "Volvo",
+    "IsActive" : true,
+    "OrganizationId" : "1948",
+    "OrganizationUrl" : "www.volvocars.com/ch/"
+}
+
+/* 50 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db3a2"),
+    "Sector" : "CONSTRUCTION",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "4B Fenster",
+    "IsActive" : true,
+    "OrganizationId" : "1949",
+    "OrganizationUrl" : "www.4-b.ch/"
+}
+/* 1 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db3a3"),
+    "Sector" : "CONSTRUCTION",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "AFG Arbonia-Forster Gruppe",
+    "IsActive" : true,
+    "OrganizationId" : "1950",
+    "OrganizationUrl" : "www.afg.ch"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db3a4"),
+    "Sector" : "CONSTRUCTION",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "AGI AG für Isolierungen",
+    "IsActive" : true,
+    "OrganizationId" : "1951",
+    "OrganizationUrl" : "www.agi.swiss/"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5efeea73a5cd883f805db3a5"),
+    "Sector" : "CONSTRUCTION",
+    "Function" : null,
+    "Address" : null,
+    "Name" : "Agir Gruppe",
+    "IsActive" : true,
+    "OrganizationId" : "1952",
+    "OrganizationUrl" : "www.agir.biz"
+}

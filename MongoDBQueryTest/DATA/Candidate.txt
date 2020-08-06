@@ -1,0 +1,2752 @@
+/* 1 */
+{
+    "_id" : ObjectId("5efeae0aa8fc5b0df0e3c2e4"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "ATN",
+            "OrganizationId" : "1905"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Bangala Vision",
+            "OrganizationId" : "1907"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1905", 
+        "1907"
+    ],
+    "Functions" : [ 
+        "SALES", 
+        "ADMIN_FINANCE", 
+        "ICT"
+    ],
+    "CommunicationLanguage" : "en",
+    "WageRequirement" : 0,
+    "JobLocations" : [ 
+        "EASTERN_SWITZERLAND", 
+        "SOUTHERN_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "RESPECT", 
+        "SUSTAINABILITY", 
+        "INNOVATION"
+    ],
+    "UndesiredSkills" : [ 
+        "SALES_FORCE", 
+        "PRESENTATION", 
+        "CUSTOMER_CONTACT"
+    ],
+    "DesiredSkills" : [ 
+        "ROJECT_MANAGEMENT", 
+        "PROJECT_WORK", 
+        "INTERNATIONALITY"
+    ],
+    "DateOfBirth" : ISODate("1977-04-30T18:00:00.000Z"),
+    "PhoneNumber" : "+41412324555",
+    "Email" : "glen@yopmail.com",
+    "Salutation" : "MR",
+    "LastName" : "Washington",
+    "FirstName" : "Glen",
+    "Name" : "Glen Washington",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "ASSERTIVENESS", 
+        "SELF_CONFIDENCE", 
+        "PRAGMATISM"
+    ]
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5efeb1feef81a14cd07b9ed6"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "APPOLO",
+            "OrganizationId" : "1931"
+        }, 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "Shikder Medical",
+            "OrganizationId" : "1932"
+        }, 
+        {
+            "Sector" : "ELECTRIACL",
+            "Name" : "BRB",
+            "OrganizationId" : "1902"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1931", 
+        "1932", 
+        "1902"
+    ],
+    "Functions" : [ 
+        "SALES", 
+        "ADMIN_FINANCE", 
+        "ICT"
+    ],
+    "CommunicationLanguage" : "en",
+    "WageRequirement" : 0,
+    "JobLocations" : [ 
+        "EASTERN_SWITZERLAND", 
+        "SOUTHERN_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "RESPECT", 
+        "SUSTAINABILITY", 
+        "INNOVATION"
+    ],
+    "UndesiredSkills" : [ 
+        "SALES_FORCE", 
+        "PRESENTATION", 
+        "CUSTOMER_CONTACT"
+    ],
+    "DesiredSkills" : [ 
+        "ROJECT_MANAGEMENT", 
+        "PROJECT_WORK", 
+        "INTERNATIONALITY"
+    ],
+    "DateOfBirth" : ISODate("1990-04-30T18:00:00.000Z"),
+    "PhoneNumber" : "+41412324555",
+    "Email" : "ab@yopmail.com",
+    "Salutation" : "MR",
+    "LastName" : "b",
+    "FirstName" : "a",
+    "Name" : "a b",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "ASSERTIVENESS", 
+        "SELF_CONFIDENCE", 
+        "PRAGMATISM"
+    ]
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5efeb1feef81a14cd07b9ed7"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "ATN",
+            "OrganizationId" : "1905"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Bangala Vision",
+            "OrganizationId" : "1907"
+        }, 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "APPOLO",
+            "OrganizationId" : "1931"
+        }, 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "Shikder Medical",
+            "OrganizationId" : "1932"
+        }, 
+        {
+            "Sector" : "ELECTRIACL",
+            "Name" : "BRB",
+            "OrganizationId" : "1902"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1931", 
+        "1932", 
+        "1902", 
+        "1905", 
+        "1907"
+    ],
+    "Functions" : [ 
+        "SALES", 
+        "ADMIN_FINANCE", 
+        "ICT"
+    ],
+    "CommunicationLanguage" : "en",
+    "WageRequirement" : 0,
+    "JobLocations" : [ 
+        "EASTERN_SWITZERLAND", 
+        "SOUTHERN_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "RESPECT", 
+        "SUSTAINABILITY", 
+        "INNOVATION"
+    ],
+    "UndesiredSkills" : [ 
+        "SALES_FORCE", 
+        "PRESENTATION", 
+        "CUSTOMER_CONTACT"
+    ],
+    "DesiredSkills" : [ 
+        "ROJECT_MANAGEMENT", 
+        "PROJECT_WORK", 
+        "INTERNATIONALITY"
+    ],
+    "DateOfBirth" : ISODate("1998-08-15T18:00:00.000Z"),
+    "PhoneNumber" : "+41412324555",
+    "Email" : "mahbubahmed@yopmail.com",
+    "Salutation" : "MR",
+    "LastName" : "ahmed",
+    "FirstName" : "mahbub",
+    "Name" : "mahbub ahmed",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "ASSERTIVENESS", 
+        "SELF_CONFIDENCE", 
+        "PRAGMATISM"
+    ]
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5efec569449292345094d510"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "MAZDA",
+            "OrganizationId" : "1924"
+        }, 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "Volvo",
+            "OrganizationId" : "1925"
+        }, 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "ODI",
+            "OrganizationId" : "1926"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1924", 
+        "1925", 
+        "1926"
+    ],
+    "Functions" : [ 
+        "DIGITAL", 
+        "HUMAN_RESOURCES", 
+        "EDUCATION"
+    ],
+    "CommunicationLanguage" : "en",
+    "WageRequirement" : 0,
+    "JobLocations" : [ 
+        "FRENCH_PART_OF_SWITZERLAND", 
+        "METROPOLITAN_AREA_ZURICH", 
+        "NORTHWEST_SWITZERLAND", 
+        "OCEANIA_AND_AUSTRALIA", 
+        "SWITZERLAND_GERMANY_AUSTRIA", 
+        "WHOLE_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "QUALITY", 
+        "SECURITY", 
+        "RELIABILITY"
+    ],
+    "UndesiredSkills" : [ 
+        "GENERAL_RESPONSIBILITY", 
+        "LEADERSHIP", 
+        "CUSTOMER_CONTACT"
+    ],
+    "DesiredSkills" : [ 
+        "STATISTICS", 
+        "DOCUMENTATION", 
+        "PRESENTATION"
+    ],
+    "DateOfBirth" : ISODate("1991-04-30T18:00:00.000Z"),
+    "PhoneNumber" : "+41412324555",
+    "Email" : "cd@yopmail.com",
+    "Salutation" : "MR",
+    "LastName" : "d",
+    "FirstName" : "c",
+    "Name" : "c d",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "PRECESSION", 
+        "ANALYTICS", 
+        "GOAL_ORIENTATION"
+    ]
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5efec569449292345094d511"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "ATN",
+            "OrganizationId" : "1905"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Bangala Vision",
+            "OrganizationId" : "1907"
+        }, 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "APPOLO",
+            "OrganizationId" : "1931"
+        }, 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "Shikder Medical",
+            "OrganizationId" : "1932"
+        }, 
+        {
+            "Sector" : "ELECTRIACL",
+            "Name" : "BRB",
+            "OrganizationId" : "1902"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1931", 
+        "1932", 
+        "1902", 
+        "1905", 
+        "1907"
+    ],
+    "Functions" : [ 
+        "SALES", 
+        "ADMIN_FINANCE", 
+        "ICT"
+    ],
+    "CommunicationLanguage" : "en",
+    "WageRequirement" : 0,
+    "JobLocations" : [ 
+        "EASTERN_SWITZERLAND", 
+        "SOUTHERN_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "RESPECT", 
+        "SUSTAINABILITY", 
+        "INNOVATION"
+    ],
+    "UndesiredSkills" : [ 
+        "SALES_FORCE", 
+        "PRESENTATION", 
+        "CUSTOMER_CONTACT"
+    ],
+    "DesiredSkills" : [ 
+        "ROJECT_MANAGEMENT", 
+        "PROJECT_WORK", 
+        "INTERNATIONALITY"
+    ],
+    "DateOfBirth" : ISODate("2010-08-15T18:00:00.000Z"),
+    "PhoneNumber" : "+41412324555",
+    "Email" : "mahbubtonmoy@yopmail.com",
+    "Salutation" : "MR",
+    "LastName" : "tonmoy",
+    "FirstName" : "mahbub",
+    "Name" : "mahbub tonmoy",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "ASSERTIVENESS", 
+        "SELF_CONFIDENCE", 
+        "PRAGMATISM"
+    ]
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3a6"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "Autoneum",
+            "OrganizationId" : "1933"
+        }, 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "BMW",
+            "OrganizationId" : "1934"
+        }, 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "Carrosserie Hess",
+            "OrganizationId" : "1935"
+        }, 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "EvoBus",
+            "OrganizationId" : "1936"
+        }, 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "FCA Switzerland",
+            "OrganizationId" : "1937"
+        }, 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "Ford",
+            "OrganizationId" : "1938"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1933", 
+        "1934", 
+        "1935", 
+        "1936", 
+        "1937", 
+        "1938"
+    ],
+    "Functions" : [ 
+        "ADMIN_FINANCE", 
+        "EXECUTIVE_MANAGEMENT"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 170000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "CENTRAL_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "RESPECT", 
+        "PROFESSIONALITY", 
+        "QUALITY"
+    ],
+    "UndesiredSkills" : [ 
+        "STATISTICS"
+    ],
+    "DesiredSkills" : [ 
+        "LEADERSHIP", 
+        "STRATEGIC_TASK", 
+        "REPORTING"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "barmettlerthomas@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Barmettler",
+    "FirstName" : "Thomas",
+    "Name" : "Thomas Barmettler",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "CAPACITY_TEAMWORK", 
+        "WORKING_UNDER_PRESSURE", 
+        "GOAL_ORIENTATION"
+    ]
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3a7"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "Autoneum",
+            "OrganizationId" : "1933"
+        }, 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "BMW",
+            "OrganizationId" : "1934"
+        }, 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "Carrosserie Hess",
+            "OrganizationId" : "1935"
+        }, 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "EvoBus",
+            "OrganizationId" : "1936"
+        }, 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "FCA Switzerland",
+            "OrganizationId" : "1937"
+        }, 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "Ford",
+            "OrganizationId" : "1938"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1933", 
+        "1934", 
+        "1935", 
+        "1936", 
+        "1937", 
+        "1938"
+    ],
+    "Functions" : [ 
+        "COMMUNICATION_PR_INVESTOR_RELATIONS", 
+        "LEGAL_COMPLIANCE_QUALITY_MANAGEMENT", 
+        "MARKETING"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 150000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "EUROPE", 
+        "USA_AND_CANADA"
+    ],
+    "DesiredCompanyValues" : [ 
+        "PASSION", 
+        "COURAGE", 
+        "FAIRNESS"
+    ],
+    "UndesiredSkills" : [ 
+        "STATISTICS", 
+        "REPORTING", 
+        "DOCUMENTATION"
+    ],
+    "DesiredSkills" : [ 
+        "ROJECT_MANAGEMENT", 
+        "INTERNATIONALITY", 
+        "LEADERSHIP"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "barblanreto@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Barblan",
+    "FirstName" : "Reto Otto",
+    "Name" : "Reto Otto Barblan",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "ASSERTIVENESS", 
+        "HONESTY", 
+        "RELIABILITY"
+    ]
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3a8"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "MACHINES",
+            "Name" : "Linde Material Handling Schweiz",
+            "OrganizationId" : "1941"
+        }, 
+        {
+            "Sector" : "CONSTRUCTION",
+            "Name" : "Menzi Muck",
+            "OrganizationId" : "1942"
+        }, 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "Mercedes-Benz",
+            "OrganizationId" : "1943"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1941", 
+        "1942", 
+        "1943"
+    ],
+    "Functions" : [ 
+        "PROJECT_MANAGEMENT_INTERNAL_CONSULTING", 
+        "SALES", 
+        "CUSTOMER_SERVICE_AFTER_SALES"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 120000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "CENTRAL_SWITZERLAND", 
+        "MITTLELAND", 
+        "NORTHWEST_SWITZERLAND", 
+        "EASTERN_SWITZERLAND", 
+        "SOUTHERN_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "PROFESSIONALITY", 
+        "CUSTOMER_ORIENTED", 
+        "PERFORMANCE_ORIENTED"
+    ],
+    "UndesiredSkills" : [ 
+        "STATISTICS", 
+        "REPORTING", 
+        "DOCUMENTATION"
+    ],
+    "DesiredSkills" : [ 
+        "ROJECT_MANAGEMENT", 
+        "INTERNATIONALITY", 
+        "CUSTOMER_CONTACT"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "ankell1974@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Andreas",
+    "FirstName" : "Keller",
+    "Name" : "Keller Andreas",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "MOTIVATION", 
+        "CAPACITY_TEAMWORK", 
+        "WORKING_UNDER_PRESSURE"
+    ]
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3a9"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "CONSTRUCTION",
+            "Name" : "4B Fenster",
+            "OrganizationId" : "1949"
+        }, 
+        {
+            "Sector" : "CONSTRUCTION",
+            "Name" : "AFG Arbonia-Forster Gruppe",
+            "OrganizationId" : "1950"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1949", 
+        "1950"
+    ],
+    "Functions" : [ 
+        "EXECUTIVE_MANAGEMENT", 
+        "COMMUNICATION_PR_INVESTOR_RELATIONS", 
+        "MARKETING"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 170000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "CENTRAL_SWITZERLAND", 
+        "MITTLELAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "PASSION", 
+        "FAIRNESS", 
+        "APPRECIATION"
+    ],
+    "UndesiredSkills" : [ 
+        "PRESENTATION", 
+        "DOCUMENTATION", 
+        "SALES_FORCE"
+    ],
+    "DesiredSkills" : [ 
+        "LEADERSHIP", 
+        "CONCEPTION", 
+        "STRATEGIC_TASK"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "albrecht_adrian@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Albrecht",
+    "FirstName" : "Adrian",
+    "Name" : "Adrian Albrecht",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "CAPACITY_TEAMWORK", 
+        "EMPATHY", 
+        "PRIORITISE_ABILITY"
+    ]
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3aa"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "CONSTRUCTION",
+            "Name" : "AFG Arbonia-Forster Gruppe",
+            "OrganizationId" : "1950"
+        }, 
+        {
+            "Sector" : "CONSTRUCTION",
+            "Name" : "AGI AG für Isolierungen",
+            "OrganizationId" : "1951"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1950", 
+        "1951"
+    ],
+    "Functions" : [ 
+        "EXECUTIVE_MANAGEMENT", 
+        "PROJECT_MANAGEMENT_INTERNAL_CONSULTING", 
+        "SALES"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 200000,
+    "JobLocations" : [ 
+        "WHOLE_SWITZERLAND", 
+        "SWITZERLAND_GERMANY_AUSTRIA", 
+        "EUROPE"
+    ],
+    "DesiredCompanyValues" : [ 
+        "SUSTAINABILITY", 
+        "PASSION", 
+        "PROFESSIONALITY"
+    ],
+    "UndesiredSkills" : [ 
+        "STATISTICS", 
+        "DOCUMENTATION", 
+        "INDOOR_SERVICE_OFFICE_WORK"
+    ],
+    "DesiredSkills" : [ 
+        "LEADERSHIP", 
+        "STRATEGIC_TASK", 
+        "REVENUE_RESPONSIBILITY"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "b.hellstern@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Hellstern",
+    "FirstName" : "Benedikt",
+    "Name" : "Benedikt Hellstern",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "MOTIVATION", 
+        "PRIORITISE_ABILITY", 
+        "SALESMANSHIP"
+    ]
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3ab"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "AUTOMOBILE",
+            "Name" : "Shikder Medical",
+            "OrganizationId" : "1932"
+        }, 
+        {
+            "Sector" : "ELECTRIACL",
+            "Name" : "BRB",
+            "OrganizationId" : "1902"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1932", 
+        "1902"
+    ],
+    "Functions" : [ 
+        "MARKETING", 
+        "PRODUCTION_SUPPLY_CHAIN", 
+        "SALES"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 120000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "EASTERN_SWITZERLAND", 
+        "WHOLE_SWITZERLAND", 
+        "SWITZERLAND_GERMANY_AUSTRIA", 
+        "EUROPE"
+    ],
+    "DesiredCompanyValues" : [ 
+        "APPRECIATION", 
+        "CUSTOMER_ORIENTED", 
+        "GOAL_ORIENTED"
+    ],
+    "UndesiredSkills" : [ 
+        "MANAGEMENT", 
+        "LEAN_MANAGEMENT", 
+        "INDOOR_SERVICE_OFFICE_WORK"
+    ],
+    "DesiredSkills" : [ 
+        "ROJECT_MANAGEMENT", 
+        "SALES_RESPONSIBILITY", 
+        "CUSTOMER_CONTACT"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "abarbato@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Barbato",
+    "FirstName" : "Antonio",
+    "Name" : "Antonio Barbato",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "ENDURANCE", 
+        "RELIABILITY", 
+        "GOAL_ORIENTATION"
+    ]
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3ac"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "MEDICINE",
+            "Name" : "Dahaka Medical",
+            "OrganizationId" : "1928"
+        }, 
+        {
+            "Sector" : "MEDICINE",
+            "Name" : "Ibnesina",
+            "OrganizationId" : "1929"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1928", 
+        "1929"
+    ],
+    "Functions" : [ 
+        "ADMIN_FINANCE", 
+        "HEALTH_MEDICINE_SOCIAL_SERVICES", 
+        "COMMUNICATION_PR_INVESTOR_RELATIONS"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 90000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "CENTRAL_SWITZERLAND", 
+        "MITTLELAND", 
+        "NORTHWEST_SWITZERLAND", 
+        "GERMANY"
+    ],
+    "DesiredCompanyValues" : [ 
+        "PASSION", 
+        "TEAM_WORK", 
+        "CUSTOMER_ORIENTED"
+    ],
+    "UndesiredSkills" : [ 
+        "REVENUE_RESPONSIBILITY", 
+        "SAVING_RESPONSIBILITY", 
+        "STATISTICS"
+    ],
+    "DesiredSkills" : [ 
+        "PROJECT_WORK", 
+        "ROJECT_MANAGEMENT", 
+        "CONCEPTION"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "185914@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Reinhard",
+    "FirstName" : "Stephan",
+    "Name" : "Stephan Reinhard",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "ENDURANCE", 
+        "RELIABILITY", 
+        "EMPATHY"
+    ]
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3ad"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "TRAVEL",
+            "Name" : "tour palace",
+            "OrganizationId" : "1918"
+        }, 
+        {
+            "Sector" : "TRAVEL",
+            "Name" : "toure care",
+            "OrganizationId" : "1919"
+        }, 
+        {
+            "Sector" : "TRAVEL",
+            "Name" : "Vromon special",
+            "OrganizationId" : "1920"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1918", 
+        "1919", 
+        "1920"
+    ],
+    "Functions" : [ 
+        "EXECUTIVE_MANAGEMENT", 
+        "MARKETING", 
+        "SALES"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 100000,
+    "JobLocations" : [ 
+        "WHOLE_SWITZERLAND", 
+        "SWITZERLAND_GERMANY_AUSTRIA", 
+        "EUROPE", 
+        "OCEANIA_AND_AUSTRALIA"
+    ],
+    "DesiredCompanyValues" : [ 
+        "TRANSPARENCY", 
+        "SUSTAINABILITY", 
+        "TEAM_WORK"
+    ],
+    "UndesiredSkills" : [ 
+        "MANAGEMENT", 
+        "ADMINISTRATION"
+    ],
+    "DesiredSkills" : [ 
+        "INTERNATIONALITY", 
+        "BUSSINESS_DEVELOPMENT", 
+        "SALES_FORCE"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "babakteh@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Tehrani",
+    "FirstName" : "Babak",
+    "Name" : "Babak Tehrani",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "ENDURANCE", 
+        "CONSCIENTIOUSNESS", 
+        "FLEXIBILITY"
+    ]
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3ae"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "MACHINES",
+            "Name" : "Linde Material Handling Schweiz",
+            "OrganizationId" : "1941"
+        }, 
+        {
+            "Sector" : "CONSTRUCTION",
+            "Name" : "Menzi Muck",
+            "OrganizationId" : "1942"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1941", 
+        "1942"
+    ],
+    "Functions" : [ 
+        "EXECUTIVE_MANAGEMENT", 
+        "TECHNICAL_OCCUPATION", 
+        "SALES"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 140000,
+    "JobLocations" : [ 
+        "WHOLE_SWITZERLAND", 
+        "GERMANY", 
+        "ASIA", 
+        "OCEANIA_AND_AUSTRALIA"
+    ],
+    "DesiredCompanyValues" : [ 
+        "PROFESSIONALITY", 
+        "QUALITY", 
+        "EXCELLENCE"
+    ],
+    "UndesiredSkills" : [ 
+        "ADMINISTRATION", 
+        "SAVING_RESPONSIBILITY", 
+        "MEDITATION"
+    ],
+    "DesiredSkills" : [ 
+        "INTERNATIONALITY", 
+        "LEADERSHIP", 
+        "SALES_RESPONSIBILITY"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "a.weissmueller@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Weissmueller",
+    "FirstName" : "Achim",
+    "Name" : "Achim Weissmueller",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "SELF_CONFIDENCE", 
+        "COMMUNICATION_ABILITIES", 
+        "AMBITION"
+    ]
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3af"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "ELECTRIACL",
+            "Name" : "BRB",
+            "OrganizationId" : "1902"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1902"
+    ],
+    "Functions" : [ 
+        "DIGITAL", 
+        "MARKETING", 
+        "PROJECT_MANAGEMENT_INTERNAL_CONSULTING"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 120000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "GERMANY"
+    ],
+    "DesiredCompanyValues" : [ 
+        "SUSTAINABILITY", 
+        "APPRECIATION", 
+        "CUSTOMER_ORIENTED"
+    ],
+    "UndesiredSkills" : [ 
+        "MANAGEMENT", 
+        "SALES_FORCE", 
+        "INDOOR_SERVICE_OFFICE_WORK"
+    ],
+    "DesiredSkills" : [ 
+        "ROJECT_MANAGEMENT", 
+        "BUSSINESS_DEVELOPMENT", 
+        "STRATEGIC_TASK"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "a.breite@yopmail.com",
+    "Salutation" : "Frau",
+    "LastName" : "Breite",
+    "FirstName" : "Antje",
+    "Name" : "Antje Breite",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "ANALYTICS", 
+        "HONESTY", 
+        "FLEXIBILITY"
+    ]
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3b0"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Brac Bank",
+            "OrganizationId" : "1914"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Dhaka Bank",
+            "OrganizationId" : "1915"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Bangladesh Bank",
+            "OrganizationId" : "1916"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Lanka Bangla",
+            "OrganizationId" : "1917"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1914", 
+        "1915", 
+        "1916", 
+        "1917"
+    ],
+    "Functions" : [ 
+        "ADMIN_FINANCE", 
+        "EXECUTIVE_MANAGEMENT", 
+        "HUMAN_RESOURCES"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 80000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "CENTRAL_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "RESPECT", 
+        "TEAM_WORK", 
+        "APPRECIATION"
+    ],
+    "UndesiredSkills" : [ 
+        "SALES_FORCE"
+    ],
+    "DesiredSkills" : [ 
+        "INTERNATIONALITY", 
+        "ADMINISTRATION", 
+        "CUSTOMER_CONTACT"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "alexandra.koeksal@yopmail.com",
+    "Salutation" : "Frau",
+    "LastName" : "Köksal",
+    "FirstName" : "Alexandra",
+    "Name" : "Alexandra Köksal",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "CAPACITY_TEAMWORK", 
+        "CONSCIENTIOUSNESS", 
+        "WORKING_UNDER_PRESSURE"
+    ]
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3b1"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Brac Bank",
+            "OrganizationId" : "1914"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Dhaka Bank",
+            "OrganizationId" : "1915"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Bangladesh Bank",
+            "OrganizationId" : "1916"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Lanka Bangla",
+            "OrganizationId" : "1917"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1914", 
+        "1915", 
+        "1916", 
+        "1917"
+    ],
+    "Functions" : [ 
+        "ADMIN_FINANCE", 
+        "CUSTOMER_SERVICE_AFTER_SALES"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 80000,
+    "JobLocations" : [ 
+        "MITTLELAND", 
+        "NORTHWEST_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "RESPECT", 
+        "TRANSPARENCY", 
+        "RELIABILITY"
+    ],
+    "UndesiredSkills" : [ 
+        "SALES_FORCE"
+    ],
+    "DesiredSkills" : [ 
+        "LEADERSHIP", 
+        "ADMINISTRATION", 
+        "INDOOR_SERVICE_OFFICE_WORK"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "atesolat@yopmail.com",
+    "Salutation" : "Frau",
+    "LastName" : "Tesolat",
+    "FirstName" : "Alexandra",
+    "Name" : "Alexandra Tesolat",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "CAPACITY_TEAMWORK", 
+        "GOAL_ORIENTATION", 
+        "AMBITION"
+    ]
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3b2"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Brac Bank",
+            "OrganizationId" : "1914"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Dhaka Bank",
+            "OrganizationId" : "1915"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Bangladesh Bank",
+            "OrganizationId" : "1916"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Lanka Bangla",
+            "OrganizationId" : "1917"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1914", 
+        "1915", 
+        "1916", 
+        "1917"
+    ],
+    "Functions" : [ 
+        "ADMIN_FINANCE", 
+        "FINANCIAL_SERVICES_ANALYZE_TRADE", 
+        "PROJECT_MANAGEMENT_INTERNAL_CONSULTING"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 150000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH"
+    ],
+    "DesiredCompanyValues" : [ 
+        "SUSTAINABILITY", 
+        "APPRECIATION", 
+        "PERFORMANCE_ORIENTED"
+    ],
+    "UndesiredSkills" : [ 
+        "SALES_RESPONSIBILITY", 
+        "STATISTICS", 
+        "SALES_FORCE"
+    ],
+    "DesiredSkills" : [ 
+        "INTERNATIONALITY", 
+        "BUSSINESS_DEVELOPMENT", 
+        "TEAM_LEAD"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "alex.gessler@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Gessler",
+    "FirstName" : "Alexander",
+    "Name" : "Alexander Gessler",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "ANALYTICS", 
+        "MOTIVATION", 
+        "GOAL_ORIENTATION"
+    ]
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3b3"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Brac Bank",
+            "OrganizationId" : "1914"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Dhaka Bank",
+            "OrganizationId" : "1915"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Bangladesh Bank",
+            "OrganizationId" : "1916"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Lanka Bangla",
+            "OrganizationId" : "1917"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1914", 
+        "1915", 
+        "1916", 
+        "1917"
+    ],
+    "Functions" : [ 
+        "EXECUTIVE_MANAGEMENT", 
+        "TECHNICAL_OCCUPATION", 
+        "SALES"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 120000,
+    "JobLocations" : [ 
+        "EASTERN_SWITZERLAND", 
+        "AUSTRIA"
+    ],
+    "DesiredCompanyValues" : [ 
+        "SUSTAINABILITY", 
+        "CUSTOMER_ORIENTED", 
+        "INNOVATION"
+    ],
+    "UndesiredSkills" : [ 
+        "MANAGEMENT", 
+        "ADMINISTRATION", 
+        "DOCUMENTATION"
+    ],
+    "DesiredSkills" : [ 
+        "BUSSINESS_DEVELOPMENT", 
+        "LEADERSHIP", 
+        "GENERAL_RESPONSIBILITY"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "b.schnetzer@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Schnetzer",
+    "FirstName" : "Bernd",
+    "Name" : "Bernd Schnetzer",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "COMMUNICATION_ABILITIES", 
+        "MOTIVATION", 
+        "GOAL_ORIENTATION"
+    ]
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3b4"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Brac Bank",
+            "OrganizationId" : "1914"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Dhaka Bank",
+            "OrganizationId" : "1915"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Bangladesh Bank",
+            "OrganizationId" : "1916"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Lanka Bangla",
+            "OrganizationId" : "1917"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1914", 
+        "1915", 
+        "1916", 
+        "1917"
+    ],
+    "Functions" : [ 
+        "ADMIN_FINANCE", 
+        "HUMAN_RESOURCES", 
+        "MARKETING"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 90000,
+    "JobLocations" : [ 
+        "CENTRAL_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "TEAM_WORK", 
+        "FAIRNESS", 
+        "QUALITY"
+    ],
+    "UndesiredSkills" : [ 
+        "REPORTING"
+    ],
+    "DesiredSkills" : [ 
+        "INTERNATIONALITY", 
+        "MANAGEMENT", 
+        "CUSTOMER_CONTACT"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "andrea.vonwyl@yopmail.com",
+    "Salutation" : "Frau",
+    "LastName" : "Vonwyl",
+    "FirstName" : "Andrea",
+    "Name" : "Andrea Vonwyl",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "MOTIVATION", 
+        "CAPACITY_TEAMWORK", 
+        "RELIABILITY"
+    ]
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3b5"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Brac Bank",
+            "OrganizationId" : "1914"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Dhaka Bank",
+            "OrganizationId" : "1915"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Bangladesh Bank",
+            "OrganizationId" : "1916"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Lanka Bangla",
+            "OrganizationId" : "1917"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1914", 
+        "1915", 
+        "1916", 
+        "1917"
+    ],
+    "Functions" : [ 
+        "EXECUTIVE_MANAGEMENT", 
+        "PRODUCTION_SUPPLY_CHAIN", 
+        "TECHNICAL_OCCUPATION"
+    ],
+    "CommunicationLanguage" : "en",
+    "WageRequirement" : 80000,
+    "JobLocations" : [ 
+        "WHOLE_SWITZERLAND", 
+        "EUROPE"
+    ],
+    "DesiredCompanyValues" : [ 
+        "TRANSPARENCY", 
+        "PROFESSIONALITY", 
+        "FAIRNESS"
+    ],
+    "UndesiredSkills" : [ 
+        "ADMINISTRATION", 
+        "STATISTICS", 
+        "REPORTING"
+    ],
+    "DesiredSkills" : [ 
+        "ROJECT_MANAGEMENT", 
+        "INTERNATIONALITY", 
+        "LEAN_MANAGEMENT"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "adamska@yopmail.com",
+    "Salutation" : "Frau",
+    "LastName" : "Adamska",
+    "FirstName" : "Agnieszka",
+    "Name" : "Agnieszka Adamska",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "SELF_CONFIDENCE", 
+        "RELIABILITY", 
+        "WORKING_UNDER_PRESSURE"
+    ]
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3b6"),
+    "SelectedCompanies" : [],
+    "PreferredCompanies" : [],
+    "Functions" : [ 
+        "ADMIN_FINANCE", 
+        "FINANCIAL_SERVICES_ANALYZE_TRADE", 
+        "HEALTH_MEDICINE_SOCIAL_SERVICES"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 90000,
+    "JobLocations" : [ 
+        "NORTHWEST_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "TRANSPARENCY", 
+        "APPRECIATION", 
+        "EQUALITY"
+    ],
+    "UndesiredSkills" : [ 
+        "MEDITATION", 
+        "SALES_FORCE", 
+        "INDOOR_SERVICE_OFFICE_WORK"
+    ],
+    "DesiredSkills" : [ 
+        "INTERNATIONALITY", 
+        "TEAM_LEAD", 
+        "REPORTING"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "babs2277@yopmail.com",
+    "Salutation" : "Frau",
+    "LastName" : "Goczke-Gavazaj",
+    "FirstName" : "Barbara",
+    "Name" : "Barbara Goczke-Gavazaj",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "ANALYTICS", 
+        "FLEXIBILITY", 
+        "GOAL_ORIENTATION"
+    ]
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3b7"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "Oppo",
+            "OrganizationId" : "1900"
+        }, 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "MI",
+            "OrganizationId" : "1901"
+        }, 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "Samsung",
+            "OrganizationId" : "1904"
+        }, 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "Nokia",
+            "OrganizationId" : "1903"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1900", 
+        "1901", 
+        "1904", 
+        "1903"
+    ],
+    "Functions" : [ 
+        "ICT", 
+        "PROJECT_MANAGEMENT_INTERNAL_CONSULTING", 
+        "SALES"
+    ],
+    "CommunicationLanguage" : "en",
+    "WageRequirement" : 100000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "CENTRAL_SWITZERLAND", 
+        "MITTLELAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "RESPECT", 
+        "APPRECIATION", 
+        "CONFIDENCE"
+    ],
+    "UndesiredSkills" : [ 
+        "INTERNATIONALITY", 
+        "SAVING_RESPONSIBILITY", 
+        "REPORTING"
+    ],
+    "DesiredSkills" : [ 
+        "PROJECT_WORK", 
+        "SALES_RESPONSIBILITY", 
+        "CUSTOMER_CONTACT"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "b_h@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Häfliger",
+    "FirstName" : "Beat",
+    "Name" : "Beat Häfliger",
+    "UserId" : null,
+    "PersonalStrengths" : []
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3b8"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Brac Bank",
+            "OrganizationId" : "1914"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Dhaka Bank",
+            "OrganizationId" : "1915"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Bangladesh Bank",
+            "OrganizationId" : "1916"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Lanka Bangla",
+            "OrganizationId" : "1917"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1914", 
+        "1915", 
+        "1916", 
+        "1917"
+    ],
+    "Functions" : [ 
+        "HUMAN_RESOURCES"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 260000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "CENTRAL_SWITZERLAND", 
+        "MITTLELAND", 
+        "EASTERN_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "SUSTAINABILITY", 
+        "PROFESSIONALITY", 
+        "RELIABILITY"
+    ],
+    "UndesiredSkills" : [],
+    "DesiredSkills" : [ 
+        "INTERNATIONALITY", 
+        "LEADERSHIP", 
+        "STRATEGIC_TASK"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "andreas.hugener@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Hugener",
+    "FirstName" : "Andreas",
+    "Name" : "Andreas Hugener",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "ASSERTIVENESS", 
+        "MOTIVATION", 
+        "TRUSTABILITY"
+    ]
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3b9"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "Oppo",
+            "OrganizationId" : "1900"
+        }, 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "MI",
+            "OrganizationId" : "1901"
+        }, 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "Samsung",
+            "OrganizationId" : "1904"
+        }, 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "Nokia",
+            "OrganizationId" : "1903"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1900", 
+        "1901", 
+        "1904", 
+        "1903"
+    ],
+    "Functions" : [ 
+        "TECHNICAL_OCCUPATION", 
+        "SALES"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 110000,
+    "JobLocations" : [ 
+        "CENTRAL_SWITZERLAND", 
+        "EASTERN_SWITZERLAND", 
+        "WHOLE_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "TEAM_WORK", 
+        "CUSTOMER_ORIENTED", 
+        "QUALITY"
+    ],
+    "UndesiredSkills" : [ 
+        "INTERNATIONALITY", 
+        "MEDITATION", 
+        "DOCUMENTATION"
+    ],
+    "DesiredSkills" : [ 
+        "SALES_RESPONSIBILITY", 
+        "CUSTOMER_CONTACT", 
+        "SALES_FORCE"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "arnoldotmar@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Arnold",
+    "FirstName" : "Otmar",
+    "Name" : "Otmar Arnold",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "COMMUNICATION_ABILITIES", 
+        "ENDURANCE", 
+        "CAPACITY_TEAMWORK"
+    ]
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3ba"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "Oppo",
+            "OrganizationId" : "1900"
+        }, 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "MI",
+            "OrganizationId" : "1901"
+        }, 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "Samsung",
+            "OrganizationId" : "1904"
+        }, 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "Nokia",
+            "OrganizationId" : "1903"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1900", 
+        "1901", 
+        "1904", 
+        "1903"
+    ],
+    "Functions" : [ 
+        "ADMIN_FINANCE"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 100000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "CENTRAL_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "TEAM_WORK", 
+        "APPRECIATION", 
+        "QUALITY"
+    ],
+    "UndesiredSkills" : [ 
+        "SALES_RESPONSIBILITY", 
+        "STATISTICS", 
+        "SALES_FORCE"
+    ],
+    "DesiredSkills" : [ 
+        "INTERNATIONALITY", 
+        "ADMINISTRATION", 
+        "CUSTOMER_CONTACT"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "barbara.8910@yopmail.com",
+    "Salutation" : "Frau",
+    "LastName" : "Meier",
+    "FirstName" : "Barbara",
+    "Name" : "Barbara Meier",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "BALANCE", 
+        "CAPACITY_TEAMWORK", 
+        "ATTENTION_TO_DETAIL"
+    ]
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3bb"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Brac Bank",
+            "OrganizationId" : "1914"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Dhaka Bank",
+            "OrganizationId" : "1915"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Bangladesh Bank",
+            "OrganizationId" : "1916"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Lanka Bangla",
+            "OrganizationId" : "1917"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1914", 
+        "1915", 
+        "1916", 
+        "1917"
+    ],
+    "Functions" : [ 
+        "ICT"
+    ],
+    "CommunicationLanguage" : "en",
+    "WageRequirement" : 110000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH"
+    ],
+    "DesiredCompanyValues" : [ 
+        "TRANSPARENCY", 
+        "PROFESSIONALITY", 
+        "INNOVATION"
+    ],
+    "UndesiredSkills" : [ 
+        "PROJECT_WORK", 
+        "INDOOR_SERVICE_OFFICE_WORK"
+    ],
+    "DesiredSkills" : [ 
+        "PROJECT_WORK", 
+        "INDOOR_SERVICE_OFFICE_WORK"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "alexanderbauer@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Bauer",
+    "FirstName" : "Alexander",
+    "Name" : "Alexander Bauer",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "CAPACITY_TEAMWORK", 
+        "TRUSTABILITY", 
+        "WORKING_UNDER_PRESSURE"
+    ]
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3bc"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "Oppo",
+            "OrganizationId" : "1900"
+        }, 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "MI",
+            "OrganizationId" : "1901"
+        }, 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "Samsung",
+            "OrganizationId" : "1904"
+        }, 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "Nokia",
+            "OrganizationId" : "1903"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1900", 
+        "1901", 
+        "1904", 
+        "1903"
+    ],
+    "Functions" : [ 
+        "EXECUTIVE_MANAGEMENT", 
+        "ICT", 
+        "SALES"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 130000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "CENTRAL_SWITZERLAND", 
+        "EASTERN_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "APPRECIATION", 
+        "RESULT_FOCUSED", 
+        "PERFORMANCE_ORIENTED"
+    ],
+    "UndesiredSkills" : [ 
+        "MANAGEMENT", 
+        "ADMINISTRATION", 
+        "DOCUMENTATION"
+    ],
+    "DesiredSkills" : [ 
+        "INTERNATIONALITY", 
+        "LEADERSHIP", 
+        "SALES_FORCE"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "alessandro.sempio@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Sempio",
+    "FirstName" : "Alessandro",
+    "Name" : "Alessandro Sempio",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "ASSERTIVENESS", 
+        "ANALYTICS", 
+        "PRIORITISE_ABILITY"
+    ]
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3bd"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "ATN",
+            "OrganizationId" : "1905"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Bangala Vision",
+            "OrganizationId" : "1907"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "RTV",
+            "OrganizationId" : "1908"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Shomoy TV",
+            "OrganizationId" : "1906"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1905", 
+        "1907", 
+        "1908", 
+        "1906"
+    ],
+    "Functions" : [ 
+        "ADMIN_FINANCE"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 140000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "EASTERN_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "PROFESSIONALITY", 
+        "APPRECIATION", 
+        "INNOVATION"
+    ],
+    "UndesiredSkills" : [ 
+        "LEADERSHIP", 
+        "ADMINISTRATION", 
+        "REPORTING"
+    ],
+    "DesiredSkills" : [ 
+        "LEADERSHIP", 
+        "ADMINISTRATION", 
+        "TEAM_LEAD"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "baumannm@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Baumann",
+    "FirstName" : "Marcel",
+    "Name" : "Marcel Baumann",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "TRUSTABILITY", 
+        "EMPATHY", 
+        "GOAL_ORIENTATION"
+    ]
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3be"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "Oppo",
+            "OrganizationId" : "1900"
+        }, 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "MI",
+            "OrganizationId" : "1901"
+        }, 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "Samsung",
+            "OrganizationId" : "1904"
+        }, 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "Nokia",
+            "OrganizationId" : "1903"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1900", 
+        "1901", 
+        "1904", 
+        "1903"
+    ],
+    "Functions" : [ 
+        "ADMIN_FINANCE", 
+        "HUMAN_RESOURCES", 
+        "CUSTOMER_SERVICE_AFTER_SALES"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 80000,
+    "JobLocations" : [ 
+        "CENTRAL_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "TRANSPARENCY", 
+        "TEAM_WORK"
+    ],
+    "UndesiredSkills" : [ 
+        "SALES_FORCE"
+    ],
+    "DesiredSkills" : [ 
+        "PROJECT_WORK", 
+        "INTERNATIONALITY", 
+        "ADMINISTRATION"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "anja.hofmeier@yopmail.com",
+    "Salutation" : "Frau",
+    "LastName" : "Hofmeier",
+    "FirstName" : "Anja",
+    "Name" : "Anja Hofmeier",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "CAPACITY_TEAMWORK", 
+        "FLEXIBILITY", 
+        "WORKING_UNDER_PRESSURE"
+    ]
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3bf"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "ATN",
+            "OrganizationId" : "1905"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Bangala Vision",
+            "OrganizationId" : "1907"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "RTV",
+            "OrganizationId" : "1908"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Shomoy TV",
+            "OrganizationId" : "1906"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1905", 
+        "1907", 
+        "1908", 
+        "1906"
+    ],
+    "Functions" : [ 
+        "DIGITAL", 
+        "EDUCATION", 
+        "PROJECT_MANAGEMENT_INTERNAL_CONSULTING"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 130000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "SWITZERLAND_GERMANY_AUSTRIA"
+    ],
+    "DesiredCompanyValues" : [ 
+        "PROFESSIONALITY", 
+        "APPRECIATION", 
+        "MAKE_ADD_BENEFIT"
+    ],
+    "UndesiredSkills" : [ 
+        "STATISTICS"
+    ],
+    "DesiredSkills" : [ 
+        "BUSSINESS_DEVELOPMENT", 
+        "GENERAL_RESPONSIBILITY", 
+        "STRATEGIC_TASK"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "behna@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Behna",
+    "FirstName" : "Georges",
+    "Name" : "Georges Behna",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "PRAGMATISM", 
+        "TRUSTABILITY", 
+        "QUALITY_AWARENES"
+    ]
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3c0"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Channel 9",
+            "OrganizationId" : "1909"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Gan Bangla",
+            "OrganizationId" : "1910"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Machranga",
+            "OrganizationId" : "1911"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "GTV",
+            "OrganizationId" : "1912"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1909", 
+        "1910", 
+        "1911", 
+        "1912"
+    ],
+    "Functions" : [ 
+        "PRODUCTION_SUPPLY_CHAIN", 
+        "PROJECT_MANAGEMENT_INTERNAL_CONSULTING", 
+        "SALES"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 110000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH"
+    ],
+    "DesiredCompanyValues" : [ 
+        "TRANSPARENCY", 
+        "TEAM_WORK", 
+        "QUALITY"
+    ],
+    "UndesiredSkills" : [ 
+        "PRESENTATION", 
+        "LEAN_MANAGEMENT", 
+        "STATISTICS"
+    ],
+    "DesiredSkills" : [ 
+        "LEADERSHIP", 
+        "CUSTOMER_CONTACT", 
+        "TEAM_LEAD"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "ablammer@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Lammer",
+    "FirstName" : "Andreas",
+    "Name" : "Andreas Lammer",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "ASSERTIVENESS", 
+        "CAPACITY_TEAMWORK", 
+        "RELIABILITY"
+    ]
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3c1"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "ATN",
+            "OrganizationId" : "1905"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Bangala Vision",
+            "OrganizationId" : "1907"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "RTV",
+            "OrganizationId" : "1908"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Shomoy TV",
+            "OrganizationId" : "1906"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1905", 
+        "1907", 
+        "1908", 
+        "1906"
+    ],
+    "Functions" : [ 
+        "DIGITAL", 
+        "EXECUTIVE_MANAGEMENT", 
+        "MARKETING"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 170000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "CENTRAL_SWITZERLAND", 
+        "EASTERN_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "PROFESSIONALITY", 
+        "CUSTOMER_ORIENTED", 
+        "INNOVATION"
+    ],
+    "UndesiredSkills" : [ 
+        "MANAGEMENT", 
+        "MEDITATION", 
+        "INDOOR_SERVICE_OFFICE_WORK"
+    ],
+    "DesiredSkills" : [ 
+        "INTERNATIONALITY", 
+        "LEADERSHIP", 
+        "STRATEGIC_TASK"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "andy@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Sutter",
+    "FirstName" : "André",
+    "Name" : "André Sutter",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "ASSERTIVENESS", 
+        "TRUSTABILITY", 
+        "QUALITY_AWARENES"
+    ]
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3c2"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Channel 9",
+            "OrganizationId" : "1909"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Gan Bangla",
+            "OrganizationId" : "1910"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Machranga",
+            "OrganizationId" : "1911"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "GTV",
+            "OrganizationId" : "1912"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1909", 
+        "1910", 
+        "1911", 
+        "1912"
+    ],
+    "Functions" : [ 
+        "DIGITAL", 
+        "FINANCIAL_SERVICES_ANALYZE_TRADE", 
+        "HUMAN_RESOURCES"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 120000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "EUROPE"
+    ],
+    "DesiredCompanyValues" : [ 
+        "RESPECT", 
+        "QUALITY", 
+        "CONFIDENCE"
+    ],
+    "UndesiredSkills" : [ 
+        "SALES_RESPONSIBILITY", 
+        "REVENUE_RESPONSIBILITY", 
+        "SAVING_RESPONSIBILITY"
+    ],
+    "DesiredSkills" : [ 
+        "CONCEPTION", 
+        "STATISTICS", 
+        "REPORTING"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "adrian.hegner@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Hegner",
+    "FirstName" : "Adrian",
+    "Name" : "Adrian Hegner",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "ANALYTICS", 
+        "TRUSTABILITY", 
+        "QUALITY_AWARENES"
+    ]
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3c3"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "Oppo",
+            "OrganizationId" : "1900"
+        }, 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "MI",
+            "OrganizationId" : "1901"
+        }, 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "Samsung",
+            "OrganizationId" : "1904"
+        }, 
+        {
+            "Sector" : "INFORMATION",
+            "Name" : "Nokia",
+            "OrganizationId" : "1903"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1900", 
+        "1901", 
+        "1904", 
+        "1903"
+    ],
+    "Functions" : [ 
+        "EXECUTIVE_MANAGEMENT", 
+        "ICT"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 200000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "EASTERN_SWITZERLAND", 
+        "AUSTRIA", 
+        "SWITZERLAND_GERMANY_AUSTRIA"
+    ],
+    "DesiredCompanyValues" : [ 
+        "PASSION", 
+        "INNOVATION", 
+        "EXCELLENCE"
+    ],
+    "UndesiredSkills" : [ 
+        "MEDITATION", 
+        "STATISTICS"
+    ],
+    "DesiredSkills" : [ 
+        "LEADERSHIP", 
+        "GENERAL_RESPONSIBILITY", 
+        "STRATEGIC_TASK"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "alex.wirth@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Wirth",
+    "FirstName" : "Alexander",
+    "Name" : "Alexander Wirth",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "MOTIVATION", 
+        "EMPATHY", 
+        "GOAL_ORIENTATION"
+    ]
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3c4"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Channel 9",
+            "OrganizationId" : "1909"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Gan Bangla",
+            "OrganizationId" : "1910"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Machranga",
+            "OrganizationId" : "1911"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "GTV",
+            "OrganizationId" : "1912"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1909", 
+        "1910", 
+        "1911", 
+        "1912"
+    ],
+    "Functions" : [ 
+        "HEALTH_MEDICINE_SOCIAL_SERVICES", 
+        "MARKETING", 
+        "SALES"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 130000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "CENTRAL_SWITZERLAND", 
+        "MITTLELAND", 
+        "EASTERN_SWITZERLAND", 
+        "WHOLE_SWITZERLAND", 
+        "AUSTRIA"
+    ],
+    "DesiredCompanyValues" : [ 
+        "MUTABILITY", 
+        "INNOVATION", 
+        "PERFORMANCE_ORIENTED"
+    ],
+    "UndesiredSkills" : [ 
+        "MANAGEMENT", 
+        "MEDITATION", 
+        "INDOOR_SERVICE_OFFICE_WORK"
+    ],
+    "DesiredSkills" : [ 
+        "INTERNATIONALITY", 
+        "SALES_RESPONSIBILITY", 
+        "TEAM_LEAD"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "akelch@yopmail.com",
+    "Salutation" : "Herr",
+    "LastName" : "Kelch",
+    "FirstName" : "Andreas",
+    "Name" : "Andreas Kelch",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "ANALYTICS", 
+        "RELIABILITY", 
+        "AMBITION"
+    ]
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3c5"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Channel 9",
+            "OrganizationId" : "1909"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Gan Bangla",
+            "OrganizationId" : "1910"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Machranga",
+            "OrganizationId" : "1911"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "GTV",
+            "OrganizationId" : "1912"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1909", 
+        "1910", 
+        "1911", 
+        "1912"
+    ],
+    "Functions" : [ 
+        "COMMUNICATION_PR_INVESTOR_RELATIONS", 
+        "MARKETING", 
+        "SALES"
+    ],
+    "CommunicationLanguage" : "en",
+    "WageRequirement" : 140000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "CENTRAL_SWITZERLAND", 
+        "EUROPE", 
+        "LATIN_AMERICA"
+    ],
+    "DesiredCompanyValues" : [ 
+        "RESPECT", 
+        "PASSION", 
+        "APPRECIATION"
+    ],
+    "UndesiredSkills" : [ 
+        "LEAN_MANAGEMENT", 
+        "MEDITATION", 
+        "REPORTING"
+    ],
+    "DesiredSkills" : [ 
+        "INTERNATIONALITY", 
+        "CONCEPTION", 
+        "TEAM_LEAD"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "andrea.jurisic@yopmail.com",
+    "Salutation" : "Frau",
+    "LastName" : "Jurisic",
+    "FirstName" : "Andrea",
+    "Name" : "Andrea Jurisic",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "SELF_CONFIDENCE", 
+        "CAPACITY_TEAMWORK", 
+        "RELIABILITY"
+    ]
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3c6"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Brac Bank",
+            "OrganizationId" : "1914"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Dhaka Bank",
+            "OrganizationId" : "1915"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Bangladesh Bank",
+            "OrganizationId" : "1916"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Lanka Bangla",
+            "OrganizationId" : "1917"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1914", 
+        "1915", 
+        "1916", 
+        "1917"
+    ],
+    "Functions" : [ 
+        "ADMIN_FINANCE", 
+        "FINANCIAL_SERVICES_ANALYZE_TRADE", 
+        "HUMAN_RESOURCES"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 90000,
+    "JobLocations" : [ 
+        "CENTRAL_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "RESPECT", 
+        "PROFESSIONALITY", 
+        "CONFIDENCE"
+    ],
+    "UndesiredSkills" : [ 
+        "SALES_FORCE"
+    ],
+    "DesiredSkills" : [ 
+        "ADMINISTRATION", 
+        "REPORTING", 
+        "DOCUMENTATION"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "ajgyl.gjurgji@yopmail.com",
+    "Salutation" : "Frau",
+    "LastName" : "Gjurgji",
+    "FirstName" : "Ajgyl",
+    "Name" : "Ajgyl Gjurgji",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "HONESTY", 
+        "COOPERATIVENESS", 
+        "PRIORITISE_ABILITY"
+    ]
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("5eff0132a5cd883f805db3c7"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Brac Bank",
+            "OrganizationId" : "1914"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Dhaka Bank",
+            "OrganizationId" : "1915"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Bangladesh Bank",
+            "OrganizationId" : "1916"
+        }, 
+        {
+            "Sector" : "FINANCIAL_SERVICES",
+            "Name" : "Lanka Bangla",
+            "OrganizationId" : "1917"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1914", 
+        "1915", 
+        "1916", 
+        "1917"
+    ],
+    "Functions" : [ 
+        "ADMIN_FINANCE", 
+        "PROJECT_MANAGEMENT_INTERNAL_CONSULTING", 
+        "CUSTOMER_SERVICE_AFTER_SALES"
+    ],
+    "CommunicationLanguage" : "de",
+    "WageRequirement" : 80000,
+    "JobLocations" : [ 
+        "METROPOLITAN_AREA_ZURICH", 
+        "CENTRAL_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "RESPECT", 
+        "PROFESSIONALITY", 
+        "CUSTOMER_ORIENTED"
+    ],
+    "UndesiredSkills" : [ 
+        "ROJECT_MANAGEMENT", 
+        "GENERAL_RESPONSIBILITY", 
+        "STRATEGIC_TASK"
+    ],
+    "DesiredSkills" : [ 
+        "CUSTOMER_CONTACT", 
+        "TEAM_LEAD", 
+        "INDOOR_SERVICE_OFFICE_WORK"
+    ],
+    "DateOfBirth" : null,
+    "PhoneNumber" : "+4144444444",
+    "Email" : "anette.speckien@yopmail.com",
+    "Salutation" : "Frau",
+    "LastName" : "Speckien",
+    "FirstName" : "Anette",
+    "Name" : "Anette Speckien",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "MOTIVATION", 
+        "RELIABILITY", 
+        "GOAL_ORIENTATION"
+    ]
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("5efeae0aa8fc5b0df0e3c2e0"),
+    "SelectedCompanies" : [ 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "ATN",
+            "OrganizationId" : "1905"
+        }, 
+        {
+            "Sector" : "MEDIA",
+            "Name" : "Bangala Vision",
+            "OrganizationId" : "1907"
+        }
+    ],
+    "PreferredCompanies" : [ 
+        "1905", 
+        "1907"
+    ],
+    "Functions" : [ 
+        "SALES", 
+        "ADMIN_FINANCE", 
+        "ICT"
+    ],
+    "CommunicationLanguage" : "en",
+    "WageRequirement" : 0,
+    "JobLocations" : [ 
+        "EASTERN_SWITZERLAND", 
+        "SOUTHERN_SWITZERLAND"
+    ],
+    "DesiredCompanyValues" : [ 
+        "RESPECT", 
+        "SUSTAINABILITY", 
+        "INNOVATION"
+    ],
+    "UndesiredSkills" : [ 
+        "SALES_FORCE", 
+        "PRESENTATION", 
+        "CUSTOMER_CONTACT"
+    ],
+    "DesiredSkills" : [ 
+        "ROJECT_MANAGEMENT", 
+        "PROJECT_WORK", 
+        "INTERNATIONALITY"
+    ],
+    "DateOfBirth" : ISODate("1977-04-30T18:00:00.000Z"),
+    "PhoneNumber" : "+41412324555",
+    "Email" : "GW@yopmail.com",
+    "Salutation" : "MR",
+    "LastName" : "Washington",
+    "FirstName" : "Glen",
+    "Name" : "Glen Washington",
+    "UserId" : null,
+    "PersonalStrengths" : [ 
+        "ASSERTIVENESS", 
+        "SELF_CONFIDENCE", 
+        "PRAGMATISM"
+    ]
+}
