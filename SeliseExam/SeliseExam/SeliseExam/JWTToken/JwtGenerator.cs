@@ -41,7 +41,7 @@ namespace SeliseExam.JWTToken
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(claims),
-                Expires = DateTime.Now.AddDays(1),
+                Expires = DateTime.Now.AddMinutes(7),
                 SigningCredentials = credentials
             };
 
@@ -49,10 +49,11 @@ namespace SeliseExam.JWTToken
             var token = tokenHandler.CreateToken(tokenDescriptor);
             var refreshToken = _refreshTokenGenerator.GenerateRefreshToken();
             return new LoginResponseDTO
-                { 
-                    AccessToken  = tokenHandler.WriteToken(token),
-                    RefreshToken = refreshToken
-                }; 
+            {
+                AccessToken = tokenHandler.WriteToken(token),
+                expires_in = (tokenDescriptor.Expires).ToString(),
+                RefreshToken = refreshToken
+            }; 
         }
 
         public ClaimsPrincipal GetPrincipalFromExpiredToken(string token)

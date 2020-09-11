@@ -119,10 +119,7 @@ namespace SeliseExam.Controllers
                     var role = await _userManager.GetRolesAsync(userExist);
                     string[] roleAssigned = role.ToArray();
 
-                    return Ok(new
-                    {
-                        token = _jwtGenerator.CreateToken(userExist,roleAssigned)
-                    });
+                    return Ok( _jwtGenerator.CreateToken(userExist,roleAssigned)  );
                 }
             }
             catch (Exception ex)
@@ -157,10 +154,7 @@ namespace SeliseExam.Controllers
                 }
                 var role = await _userManager.GetRolesAsync(userExist);
                 string[] roleAssigned = role.ToArray();
-                return Ok(new
-                {
-                    token = _jwtGenerator.CreateToken(userExist, roleAssigned)
-                });
+                return Ok(_jwtGenerator.CreateToken(userExist, roleAssigned));
             }
             catch (Exception ex)
             {

@@ -8,7 +8,7 @@ namespace SeliseExam.DTO
     public class LoginResponseDTO
     {
         public string AccessToken { get; set; }
-       // public DateTimeOffset AccessTokenExpiration { get; set; }
+        public string expires_in { get; set; }
         public string RefreshToken { get; set; }
     }
 }
