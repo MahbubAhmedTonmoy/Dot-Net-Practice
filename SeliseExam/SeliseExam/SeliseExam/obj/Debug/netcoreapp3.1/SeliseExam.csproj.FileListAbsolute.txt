@@ -154,3 +154,8 @@ C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\obj\Debug\netcoreapp3.1\SeliseExam.dll
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\obj\Debug\netcoreapp3.1\SeliseExam.pdb
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\obj\Debug\netcoreapp3.1\SeliseExam.genruntimeconfig.cache
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\obj\Debug\netcoreapp3.1\SeliseExam.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll

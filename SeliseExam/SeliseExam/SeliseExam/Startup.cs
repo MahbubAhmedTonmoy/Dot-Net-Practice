@@ -17,6 +17,7 @@ using SeliseExam.Model;
 using Microsoft.Extensions.Logging;
 using SeliseExam.GlobalErrorHandle;
 using SeliseExam.JWTToken;
+using Microsoft.OpenApi.Models;
 
 namespace SeliseExam
 {
@@ -34,7 +35,10 @@ namespace SeliseExam
         {
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Selise")));
 
-            _ = services.AddIdentity<AppUser, IdentityRole>(o => { }).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
+            _ = services.AddIdentity<AppUser, IdentityRole>(o => 
+            { 
+                //o.SignIn.RequireConfirmedEmail = true; 
+            }).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IJwtGenerator, JwtGenerator>();
@@ -63,6 +67,11 @@ namespace SeliseExam
                 //options.AddPolicy("CreateRolePolicy",
                 //    policy => policy.RequireClaim("Create Role"));
             });
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "test API", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -83,6 +92,11 @@ namespace SeliseExam
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "testing");
             });
         }
     }

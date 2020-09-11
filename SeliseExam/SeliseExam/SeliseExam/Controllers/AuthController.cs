@@ -91,6 +91,7 @@ namespace SeliseExam.Controllers
                     {
                         return BadRequest("role is not matched");
                     }
+
                     return Ok(createdUser);
                 }
                 else
@@ -101,6 +102,7 @@ namespace SeliseExam.Controllers
 
             return StatusCode(500, "Internal server error");
         }
+
 
         [HttpPost("login")]
         public async Task<IActionResult> Login(UserForLoginDTO userForLoginDTO)
@@ -133,7 +135,7 @@ namespace SeliseExam.Controllers
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
-            return RedirectToAction("Login");
+            return RedirectToAction(nameof(Login));
         }
 
         [HttpPost("refresh")]
