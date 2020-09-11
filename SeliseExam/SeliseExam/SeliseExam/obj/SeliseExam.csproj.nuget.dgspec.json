@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore\\SeliseExam\\SeliseExam\\SeliseExam\\SeliseExam.csproj": {}
+    "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\SeliseExam\\SeliseExam\\SeliseExam\\SeliseExam.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore\\SeliseExam\\SeliseExam\\SeliseExam\\SeliseExam.csproj": {
+    "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\SeliseExam\\SeliseExam\\SeliseExam\\SeliseExam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore\\SeliseExam\\SeliseExam\\SeliseExam\\SeliseExam.csproj",
+        "projectUniqueName": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\SeliseExam\\SeliseExam\\SeliseExam\\SeliseExam.csproj",
         "projectName": "SeliseExam",
-        "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore\\SeliseExam\\SeliseExam\\SeliseExam\\SeliseExam.csproj",
+        "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\SeliseExam\\SeliseExam\\SeliseExam\\SeliseExam.csproj",
         "packagesPath": "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore\\SeliseExam\\SeliseExam\\SeliseExam\\obj\\",
+        "outputPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\SeliseExam\\SeliseExam\\SeliseExam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ahmed.mahbub\\AppData\\Roaming\\NuGet\\NuGet.Config",

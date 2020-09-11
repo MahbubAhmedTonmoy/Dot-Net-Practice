@@ -132,13 +132,43 @@ namespace SeliseExam.Controllers
             }
             return null;// StatusCode(500, "Internal server error");
         }
+        [HttpPost]
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Login");
+        }
 
-        //[HttpPost("refresh")]
-        //public async Task<IActionResult> Refresh(RefreshTokenDTO refreshTokenDTO)
-        //{
-        //    return null;
-        //}
+        [HttpPost("refresh")]
+        public async Task<IActionResult> Refresh(RefreshTokenDTO refreshTokenDTO)
+        {
+            try
+            {
+                var principal = _jwtGenerator.GetPrincipalFromExpiredToken(refreshTokenDTO.Token);
+                // email pawa jay na for loop diye
+                string email = null;
+                var tempClaimPrincipal = principal.Claims.ToList();
+                email = tempClaimPrincipal[2].Value;
+                //-----
+                var userExist = await _userManager.FindByEmailAsync(email);
+                if (userExist == null)
+                {
+                    return BadRequest($"this {email} is not resisrered");
+                }
+                var role = await _userManager.GetRolesAsync(userExist);
+                string[] roleAssigned = role.ToArray();
+                return Ok(new
+                {
+                    token = _jwtGenerator.CreateToken(userExist, roleAssigned)
+                });
+            }
+            catch (Exception ex)
+            {
 
-      
+                throw;
+            }
+        }
+
+
     }
 }
