@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using EmailService;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -19,7 +20,7 @@ namespace SeliseExam.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthController: ControllerBase
+    public class AuthController : ControllerBase
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
@@ -27,9 +28,10 @@ namespace SeliseExam.Controllers
         private readonly IConfiguration _config;
         private readonly ILogger<AuthController> _logger;
         private readonly IJwtGenerator _jwtGenerator;
-        public AuthController(UserManager<AppUser> userManager, RoleManager<IdentityRole> roleManager, 
+        private readonly IEmailSender _emailSender;
+        public AuthController(UserManager<AppUser> userManager, RoleManager<IdentityRole> roleManager,
             SignInManager<AppUser> signInManager, IConfiguration config, ILogger<AuthController> logger,
-             IJwtGenerator jwtGenerator)
+             IJwtGenerator jwtGenerator, IEmailSender emailSender)
         {
             _jwtGenerator = jwtGenerator;
             _userManager = userManager;
@@ -37,13 +39,10 @@ namespace SeliseExam.Controllers
             _signInManager = signInManager;
             _config = config;
             _logger = logger;
+            _emailSender = emailSender;
         }
 
-        [HttpGet]
-        public IActionResult Test()
-        {
-            return Ok();
-        }
+        
 
         [HttpPost("registration")]
         public async Task<IActionResult> Registration(UserForRegistrationDTO userRegistrationDto)
@@ -71,7 +70,7 @@ namespace SeliseExam.Controllers
             {
                 return BadRequest("this email already used");
             }
-            if(userRegistrationDto.Role.Contains("Admin") || userRegistrationDto.Role.Contains("User"))
+            if (userRegistrationDto.Role.Contains("Admin") || userRegistrationDto.Role.Contains("User"))
             {
                 var createdUser = await _userManager.CreateAsync(userForCreate, userRegistrationDto.Password);
 
@@ -85,7 +84,7 @@ namespace SeliseExam.Controllers
                     if (userRegistrationDto.Role.Contains("User"))
                     {
                         await _userManager.AddToRoleAsync(userForCreate, Role.User);
-                      //  await _userManager.AddClaimAsync(userForCreate, new Claim("Create Role", "Create Role"));
+                        //  await _userManager.AddClaimAsync(userForCreate, new Claim("Create Role", "Create Role"));
                     }
                     else
                     {
@@ -121,7 +120,7 @@ namespace SeliseExam.Controllers
                     var role = await _userManager.GetRolesAsync(userExist);
                     string[] roleAssigned = role.ToArray();
 
-                    return Ok( _jwtGenerator.CreateToken(userExist,roleAssigned)  );
+                    return Ok(_jwtGenerator.CreateToken(userExist, roleAssigned));
                 }
             }
             catch (Exception ex)
@@ -131,7 +130,7 @@ namespace SeliseExam.Controllers
             }
             return null;// StatusCode(500, "Internal server error");
         }
-        [HttpPost]
+        [HttpPost("logout")]
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
@@ -165,6 +164,39 @@ namespace SeliseExam.Controllers
             }
         }
 
+        [HttpPost("forgotPassword")]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordModel forgotPasswordModel)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest("not valid input");
+            var user = await _userManager.FindByEmailAsync(forgotPasswordModel.Email);
+            if (user == null)
+                return BadRequest($"{user} not found");
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+            var callback = Url.Action(nameof(ResetPassword), nameof(AuthController), new { token, email = user.Email }, Request.Scheme);
+            var message = new Message(new string[] { "2016100000007@seu.edu.bd" }, "Reset password token", callback, null);
+            //return Ok(_emailSender.SendEmailAsync(message));
 
+            return Ok(token);
+        }
+
+        [HttpPost("ResetPassword")]
+        public async Task<IActionResult> ResetPassword(ResetPasswordModel resetPasswordModel)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest("not valid input");
+            var user = await _userManager.FindByEmailAsync(resetPasswordModel.Email);
+            if (user == null) return BadRequest($"{user} not found");
+            var resetPassResult = await _userManager.ResetPasswordAsync(user, resetPasswordModel.Token, resetPasswordModel.Password);
+            if (!resetPassResult.Succeeded)
+            {
+                foreach (var error in resetPassResult.Errors)
+                {
+                    ModelState.TryAddModelError(error.Code, error.Description);
+                }
+                return BadRequest();
+            }
+            return Ok();
+        }
     }
 }

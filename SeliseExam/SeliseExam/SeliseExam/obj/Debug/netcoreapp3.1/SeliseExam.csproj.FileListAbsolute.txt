@@ -159,3 +159,11 @@ C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\bin\Debug\netcoreapp3.1\NETCore.MailKit.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\bin\Debug\netcoreapp3.1\EmailService.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\SeliseExam\SeliseExam\SeliseExam\bin\Debug\netcoreapp3.1\EmailService.pdb

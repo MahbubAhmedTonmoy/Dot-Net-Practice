@@ -18,6 +18,7 @@ using Microsoft.Extensions.Logging;
 using SeliseExam.GlobalErrorHandle;
 using SeliseExam.JWTToken;
 using Microsoft.OpenApi.Models;
+using EmailService;
 
 namespace SeliseExam
 {
@@ -39,8 +40,14 @@ namespace SeliseExam
             { 
                 //o.SignIn.RequireConfirmedEmail = true; 
             }).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
+            services.Configure<DataProtectionTokenProviderOptions>(opt =>
+                    opt.TokenLifespan = TimeSpan.FromHours(2));
+
+            var emailConfig = Configuration.GetSection("EmailConfiguration").Get<EmailConfiguration>();
+            services.AddSingleton(emailConfig);
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IEmailSender, EmailSender>();
             services.AddScoped<IJwtGenerator, JwtGenerator>();
             services.AddScoped<IRefreshTokenGenerator, RefreshTokenGenerator>();
             services.AddControllers().AddNewtonsoftJson(o => o.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
