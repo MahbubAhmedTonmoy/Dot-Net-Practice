@@ -91,7 +91,14 @@ namespace SeliseExam.Controllers
                         return BadRequest("role is not matched");
                     }
 
-                    return Ok(createdUser);
+                    // verify email address
+                    var user = await _userManager.FindByEmailAsync(userRegistrationDto.Email);
+                    var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+                    var confirmationLink = Url.Action(nameof(ConfirmEmail), nameof(AuthController), new { token, email = user.Email }, Request.Scheme);
+                    var message = new Message(new string[] { user.Email }, "Confirmation email link", confirmationLink, null);
+                    await _emailSender.SendEmailAsync(message);
+
+                    return Ok(new { createdUser , token});
                 }
                 else
                 {
@@ -100,6 +107,16 @@ namespace SeliseExam.Controllers
             }
 
             return StatusCode(500, "Internal server error");
+        }
+        [HttpGet("ConfirmEmail")]
+        public async Task<IActionResult> ConfirmEmail(string token, string email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user == null)
+                return BadRequest("Error");
+            var result = await _userManager.ConfirmEmailAsync(user, token);
+            if (result.Succeeded) return Ok();
+            else return BadRequest();
         }
 
 

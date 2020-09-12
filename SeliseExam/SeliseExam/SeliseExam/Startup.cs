@@ -38,10 +38,11 @@ namespace SeliseExam
 
             _ = services.AddIdentity<AppUser, IdentityRole>(o => 
             { 
-                //o.SignIn.RequireConfirmedEmail = true; 
+                o.SignIn.RequireConfirmedEmail = true; 
             }).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
+
             services.Configure<DataProtectionTokenProviderOptions>(opt =>
-                    opt.TokenLifespan = TimeSpan.FromHours(2));
+                    opt.TokenLifespan = TimeSpan.FromHours(2)); // confirm email , reset password token
 
             var emailConfig = Configuration.GetSection("EmailConfiguration").Get<EmailConfiguration>();
             services.AddSingleton(emailConfig);
