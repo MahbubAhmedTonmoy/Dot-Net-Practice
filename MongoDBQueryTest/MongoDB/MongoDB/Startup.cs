@@ -39,6 +39,7 @@ namespace MongoDB
             });
 
             services.AddMongoDb(Configuration);
+            services.AddSingleton<IRepository, MongoRepository>();
             services.AddTransient<IOrganizationRepository, OrganizationRepository>();
             services.AddTransient<ICandidateRepository, CandidateRepository>();
             services.AddTransient<IFunctionRank, FunctionRank>();
