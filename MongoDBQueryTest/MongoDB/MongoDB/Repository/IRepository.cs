@@ -39,7 +39,7 @@ namespace MongoDB.Repository
 
         public MongoRepository(IConfiguration configuration)
         {
-            connectionString = configuration.GetConnectionString("");
+            connectionString = configuration.GetConnectionString("connectionString");
         }
 
         public void Initialize()
