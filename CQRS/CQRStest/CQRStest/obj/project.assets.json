@@ -5564,11 +5564,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore\\BSAPI\\CQRS\\CQRStest\\CQRStest\\CQRStest.csproj",
+      "projectUniqueName": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\CQRS\\CQRStest\\CQRStest\\CQRStest.csproj",
       "projectName": "CQRStest",
-      "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore\\BSAPI\\CQRS\\CQRStest\\CQRStest\\CQRStest.csproj",
+      "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\CQRS\\CQRStest\\CQRStest\\CQRStest.csproj",
       "packagesPath": "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore\\BSAPI\\CQRS\\CQRStest\\CQRStest\\obj\\",
+      "outputPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\CQRS\\CQRStest\\CQRStest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ahmed.mahbub\\AppData\\Roaming\\NuGet\\NuGet.Config",

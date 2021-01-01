@@ -1,0 +1,286 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\CommandHandler\\CommandHandler.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\CommandHandler\\CommandHandler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\CommandHandler\\CommandHandler.csproj",
+        "projectName": "CommandHandler",
+        "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\CommandHandler\\CommandHandler.csproj",
+        "packagesPath": "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\CommandHandler\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ahmed.mahbub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ahmed.mahbub\\.nuget": {},
+          "http://nuget.selise.biz/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Command\\Command.csproj": {
+                "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Command\\Command.csproj"
+              },
+              "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Entity\\Entity.csproj"
+              },
+              "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Command\\Command.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Command\\Command.csproj",
+        "projectName": "Command",
+        "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Command\\Command.csproj",
+        "packagesPath": "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Command\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ahmed.mahbub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ahmed.mahbub\\.nuget": {},
+          "http://nuget.selise.biz/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Entity\\Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Entity\\Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Entity\\Entity.csproj",
+        "projectName": "Entity",
+        "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ahmed.mahbub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ahmed.mahbub\\.nuget": {},
+          "http://nuget.selise.biz/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.11.5, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.5, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\MongoDB2\\MongoStudentApp\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ahmed.mahbub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ahmed.mahbub\\.nuget": {},
+          "http://nuget.selise.biz/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.11.5, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.5, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

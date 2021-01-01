@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tp3/N8Hh2QT6lSzYjdG7Citrr+WDA8JpqAWYcVK00hQ2xuKTDZRHV+AKCbx9Goo37+aaxaeOUJseHVFCQi5o3w==",
+  "dgSpecHash": "1vPdA+al7iSAqv0X9kSSAUhom6Qww/JCLkDVmJwBsqY8qmJnDZpf9eLe9FM+RiqhggJzuFaOZWEwealmU/gLuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore\\BSAPI\\CQRS\\CQRStest\\CQRStest\\CQRStest.csproj",
+  "projectFilePath": "C:\\Users\\ahmed.mahbub\\Desktop\\Dot-Net-Practice\\CQRS\\CQRStest\\CQRStest\\CQRStest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

@@ -10,9 +10,6 @@ C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentA
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\obj\Debug\netcoreapp3.1\staticwebassets\StudentApp.StaticWebAssets.xml
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\obj\Debug\netcoreapp3.1\StudentApp.csproj.CopyComplete
-C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\obj\Debug\netcoreapp3.1\StudentApp.csproj.CoreCompileInputs.cache
-C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\obj\Debug\netcoreapp3.1\StudentApp.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\obj\Debug\netcoreapp3.1\StudentApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\StudentApp.deps.json
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\StudentApp.runtimeconfig.json
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\StudentApp.runtimeconfig.dev.json
@@ -33,3 +30,13 @@ C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentA
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\obj\Debug\netcoreapp3.1\StudentApp.dll
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\obj\Debug\netcoreapp3.1\StudentApp.pdb
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\obj\Debug\netcoreapp3.1\StudentApp.genruntimeconfig.cache
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\obj\Debug\netcoreapp3.1\StudentApp.csproj.CoreCompileInputs.cache
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\obj\Debug\netcoreapp3.1\StudentApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\obj\Debug\netcoreapp3.1\StudentApp.MvcApplicationPartsAssemblyInfo.cache

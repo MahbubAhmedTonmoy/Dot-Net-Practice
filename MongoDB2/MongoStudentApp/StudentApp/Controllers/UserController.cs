@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Command;
+using Entity;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using StudentApp.Application;
-using StudentApp.Domain.Entity;
 
 namespace StudentApp.Controllers
 {
@@ -15,28 +17,26 @@ namespace StudentApp.Controllers
     {
 
         private readonly ILogger<UserController> _logger;
-        private readonly IRepository repository;
+        private readonly IMediator _mediator;
 
-        public UserController(ILogger<UserController> logger, IRepository repository)
+        public UserController(ILogger<UserController> logger, IMediator mediator)
         {
             _logger = logger;
-            this.repository = repository;
+            _mediator = mediator;
         }
 
         [HttpPost]
-        public ActionResult CreateUser([FromBody] User user)
+        public async Task<ActionResult<User>> CreateUser([FromBody] User user)
         {
             try
             {
-                user.ItemId = Guid.NewGuid().ToString();
-                this.repository.Save<User>(user);
+                return await _mediator.Send(new UserCreateCommand { Email = user.Email, Password = user.Password});
             }
             catch (Exception ex)
             {
 
                 throw;
             }
-            return Ok();
         }
     }
 }
