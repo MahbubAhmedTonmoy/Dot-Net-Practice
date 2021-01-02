@@ -4,6 +4,8 @@ using MediatR;
 using StudentApp.Application;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -61,12 +63,30 @@ namespace Command
 
         public class CommandValidator : AbstractValidator<UserCreateCommand>
         {
-            public CommandValidator()
+            private readonly IRepository repository;
+
+            public CommandValidator(IRepository repository)
             {
-                RuleFor(x => x.Email).NotEmpty();
+                RuleFor(x => x.Email).NotEmpty().WithMessage("EMAIL_REQUIRED");
                 RuleFor(x => x.Password).NotEmpty();
+                RuleFor(x => x.Roles).NotEmpty().Must(IsValidRoles).WithMessage("Not valid role");
+                this.repository = repository;
+            }
+
+            private bool IsValidRoles(List<string> arg)
+            {
+                var props = Enum.GetNames(typeof(Role)).ToList();
+                foreach (var role in arg)
+                {
+                    if (!props.Contains(role)) { return false; }
+                }
+                return true;
             }
         }
-
+        public enum Role
+        {
+           Admin,
+           User
+        }
     }
 }

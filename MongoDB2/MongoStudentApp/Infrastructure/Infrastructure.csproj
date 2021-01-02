@@ -10,8 +10,13 @@
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.5" />
 		<PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.6.0" />
 		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.6.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="3.1.8" />
+		<PackageReference Include="NETCore.MailKit" Version="2.0.2" />
 	</ItemGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\Entity\Entity.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="EmailService\" />
 	</ItemGroup>
 </Project>

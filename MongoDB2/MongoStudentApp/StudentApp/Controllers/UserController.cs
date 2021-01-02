@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Command;
 using Entity;
 using MediatR;
@@ -20,11 +21,13 @@ namespace StudentApp.Controllers
 
         private readonly ILogger<UserController> _logger;
         private readonly IMediator _mediator;
+        private readonly IMapper mapper;
 
-        public UserController(ILogger<UserController> logger, IMediator mediator)
+        public UserController(ILogger<UserController> logger, IMediator mediator, IMapper mapper)
         {
             _logger = logger;
             _mediator = mediator;
+            this.mapper = mapper;
         }
 
         [HttpPost]
@@ -32,7 +35,7 @@ namespace StudentApp.Controllers
         {
             try
             {
-                return await _mediator.Send(new UserCreateCommand { Email = user.Email, Password = user.Password, Roles = user.Roles});
+                return await _mediator.Send(mapper.Map<UserCreateCommand>(user));
             }
             catch (Exception ex)
             {

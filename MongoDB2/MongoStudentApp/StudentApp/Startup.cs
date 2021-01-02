@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
+using AutoMapper;
 using Command;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
@@ -36,6 +37,7 @@ namespace StudentApp
             services.AddMediatR(Assembly.GetExecutingAssembly());
             services.AddSingleton(typeof(IRepository), typeof(Repository));
             services.AddSingleton(typeof(IJwtGenerator), typeof(JwtGenerator));
+            services.AddAutoMapper(typeof(Startup));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Student APP", Version = "v1" });
