@@ -24,33 +24,22 @@ namespace Command
         public async Task<User> Handle(UserCreateCommand request, CancellationToken cancellationToken)
         {
             var user = new User();
-            //byte[] passwordHash, passwordSalt;
-            //CreatePasswordHash(request.Password, out passwordHash, out passwordSalt);
+            byte[] passwordHash, passwordSalt;
+            CreatePasswordHash(request.Password, out passwordHash, out passwordSalt);
             try
             {
                 user.ItemId = Guid.NewGuid().ToString();
                 user.Email = request.Email;
                 user.Roles = request.Roles;
-                user.Password = request.Password;//BitConverter.ToString(passwordHash); 
+                user.Password = Convert.ToBase64String(passwordHash);
                 this.repository.Save<User>(user);
             }
             catch (Exception ex)
             {
             }
-           // var a = VerifyPasswordHash(request.Password, Encoding.ASCII.GetBytes(user.Password), passwordSalt);
+
+            // var a = VerifyPasswordHash(request.Password, Encoding.ASCII.GetBytes(user.Password), passwordSalt);
             return user;
-        }
-        private bool VerifyPasswordHash(string password, byte[] passwordHash, byte[] passwordSalt)
-        {
-            using (var hmac = new System.Security.Cryptography.HMACSHA512(passwordSalt))
-            {
-                var computedHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password)); 
-                for(int i =0; i< computedHash.Length; i++)
-                {
-                    if (computedHash[i] != passwordHash[i]) return false;
-                }
-            }
-            return true;
         }
         private void CreatePasswordHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
         {
@@ -60,7 +49,6 @@ namespace Command
                 passwordHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
             }
         }
-
         public class CommandValidator : AbstractValidator<UserCreateCommand>
         {
             private readonly IRepository repository;

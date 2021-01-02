@@ -31,7 +31,7 @@ namespace StudentApp.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<User>> CreateUser([FromBody] User user)
+        public async Task<ActionResult<User>> CreateUser([FromBody] UserCreateCommand user)
         {
             try
             {
