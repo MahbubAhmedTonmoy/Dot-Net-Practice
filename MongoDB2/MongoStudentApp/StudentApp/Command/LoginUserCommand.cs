@@ -1,0 +1,14 @@
+﻿using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace StudentApp.Command
+{
+    public class LoginUserCommand : IRequest<Object>
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
+    }
+}
