@@ -5,6 +5,7 @@ using StudentApp.Application;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Principal;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -30,6 +31,8 @@ namespace StudentApp.Command
             if (user!= null && checkPassword)
             {
                 token = this.jwtGenerator.CreateToken(user, user.Roles.ToArray());
+                user.RefreshToken = token.RefreshToken;
+                this.repository.Update<User>(x => x.Email == user.Email, user);
             }
             return token;
         }

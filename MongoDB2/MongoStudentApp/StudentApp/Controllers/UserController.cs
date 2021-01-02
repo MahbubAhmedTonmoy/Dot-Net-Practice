@@ -55,5 +55,18 @@ namespace StudentApp.Controllers
                 throw;
             }
         }
+        [HttpPost("refreshToken")]
+        public async Task<TokenResponse> Refresh(RefreshTokenCommand refreshTokenCommand)
+        {
+            try
+            {
+                return await _mediator.Send(refreshTokenCommand);
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
     }
 }

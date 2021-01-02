@@ -15,6 +15,7 @@ namespace Entity
         public string Password { get; set; }
         public string DisplayName { get; set; }
         public List<string> Roles { get; set; }
+        public string RefreshToken { get; set; }
     }
 
     [BsonIgnoreExtraElements(Inherited = true)]

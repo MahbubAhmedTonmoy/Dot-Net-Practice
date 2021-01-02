@@ -24,7 +24,7 @@ namespace UAM
             var claims = new[]
             {
                   new Claim(ClaimTypes.NameIdentifier, user.ItemId),
-                  //new Claim(ClaimTypes.Name, user.DisplayName),
+                  new Claim(ClaimTypes.Name, user.FirstName),
                   new Claim(ClaimTypes.Email, user.Email),
                   new Claim(ClaimTypes.Role, role[0]),
                  // new Claim(ClaimTypes.Role, role[1]),
@@ -81,6 +81,22 @@ namespace UAM
                 throw;
             }
         }
+        //private void ValidateRefreshToken(User user, string refreshToken)
+        //{
+        //    if (user == null ||
+        //        !user.RefreshToken.Exists(rt => rt.Token == refreshToken))
+        //    {
+        //        throw new SecurityTokenException("Invalid token!");
+        //    }
+
+        //    var storedRefreshToken = user.RefreshTokens.Find(rt => rt.Token == refreshToken);
+
+        //    // Ensure that the refresh token that we got from storage is not yet expired.
+        //    if (DateTime.UtcNow > storedRefreshToken.Expiration)
+        //    {
+        //        throw new SecurityTokenException("Invalid token!");
+        //    }
+        //}
 
         public string GenerateRefreshToken()
         {
