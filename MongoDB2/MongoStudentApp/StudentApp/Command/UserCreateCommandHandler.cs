@@ -28,6 +28,7 @@ namespace Command
             {
                 user.ItemId = Guid.NewGuid().ToString();
                 user.Email = request.Email;
+                user.Roles = request.Roles;
                 user.Password = request.Password;//BitConverter.ToString(passwordHash); 
                 this.repository.Save<User>(user);
             }

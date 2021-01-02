@@ -8,6 +8,8 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using StudentApp.Application;
+using StudentApp.Command;
+using UAM;
 
 namespace StudentApp.Controllers
 {
@@ -30,11 +32,23 @@ namespace StudentApp.Controllers
         {
             try
             {
-                return await _mediator.Send(new UserCreateCommand { Email = user.Email, Password = user.Password});
+                return await _mediator.Send(new UserCreateCommand { Email = user.Email, Password = user.Password, Roles = user.Roles});
             }
             catch (Exception ex)
             {
 
+                throw;
+            }
+        }
+        [HttpPost("login")]
+        public async Task<ActionResult<TokenResponse>> Login([FromBody] LoginUserCommand loginUserCommand)
+        {
+            try
+            {
+                return await _mediator.Send(loginUserCommand);
+            }
+            catch (Exception ex)
+            {
                 throw;
             }
         }

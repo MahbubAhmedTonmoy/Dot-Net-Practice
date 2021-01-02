@@ -15,6 +15,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using StudentApp.Application;
+using UAM;
 
 namespace StudentApp
 {
@@ -34,6 +35,7 @@ namespace StudentApp
             services.AddOptions(); 
             services.AddMediatR(Assembly.GetExecutingAssembly());
             services.AddSingleton(typeof(IRepository), typeof(Repository));
+            services.AddSingleton(typeof(IJwtGenerator), typeof(JwtGenerator));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Student APP", Version = "v1" });

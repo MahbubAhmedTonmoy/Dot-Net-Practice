@@ -1,0 +1,8 @@
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\Entity\bin\Debug\netcoreapp3.1\Entity.deps.json
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\Entity\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\Entity\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\Entity\obj\Debug\netcoreapp3.1\Entity.csproj.CoreCompileInputs.cache
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\Entity\obj\Debug\netcoreapp3.1\Entity.AssemblyInfoInputs.cache
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\Entity\obj\Debug\netcoreapp3.1\Entity.AssemblyInfo.cs
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\Entity\obj\Debug\netcoreapp3.1\Entity.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\Entity\obj\Debug\netcoreapp3.1\Entity.pdb

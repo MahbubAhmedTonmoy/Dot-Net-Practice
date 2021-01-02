@@ -40,3 +40,14 @@ C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentA
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\obj\Debug\netcoreapp3.1\StudentApp.csproj.CoreCompileInputs.cache
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\obj\Debug\netcoreapp3.1\StudentApp.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\obj\Debug\netcoreapp3.1\StudentApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
