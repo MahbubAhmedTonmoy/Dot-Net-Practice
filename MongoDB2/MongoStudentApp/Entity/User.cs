@@ -22,6 +22,6 @@ namespace Entity
     public class EntityBase
     {
         [BsonId]
-        public string ItemId { get; set; }
+        public string ItemId { get; set; } = Guid.NewGuid().ToString();
     }
 }

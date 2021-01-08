@@ -3,6 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="EmailService\**" />
+    <EmbeddedResource Remove="EmailService\**" />
+    <None Remove="EmailService\**" />
+  </ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="MongoDB.Bson" Version="2.11.5" />
 		<PackageReference Include="MongoDB.Driver" Version="2.11.5" />
@@ -15,8 +21,5 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\Entity\Entity.csproj" />
-	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="EmailService\" />
 	</ItemGroup>
 </Project>

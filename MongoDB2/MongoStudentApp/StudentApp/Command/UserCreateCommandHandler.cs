@@ -28,7 +28,7 @@ namespace Command
             CreatePasswordHash(request.Password, out passwordHash, out passwordSalt);
             try
             {
-                user.ItemId = Guid.NewGuid().ToString();
+                //user.ItemId = Guid.NewGuid().ToString();
                 user.Email = request.Email;
                 user.Roles = request.Roles;
                 user.Password = Convert.ToBase64String(passwordHash);
