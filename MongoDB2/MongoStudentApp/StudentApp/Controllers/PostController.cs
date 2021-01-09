@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Entity;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using StudentApp.Command;
@@ -39,6 +40,8 @@ namespace StudentApp.Controllers
                 throw;
             }
         }
+
+        [Authorize(Roles = "user")]
         [HttpPost("getpost")]
         public async Task<ActionResult<Object>> GetPostDetails([FromBody] GetPostQuery query)
         {
