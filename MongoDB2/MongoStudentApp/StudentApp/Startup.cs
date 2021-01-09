@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using Command;
+using GraphQL.Server;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -19,6 +20,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using StudentApp.Application;
+using StudentApp.GraphQL;
 using UAM;
 
 namespace StudentApp
@@ -56,7 +58,8 @@ namespace StudentApp
                 };
             });
             services.AddAuthorization();
-
+            services.AddGraphQL(o => { o.ExposeExceptions = false; })
+                                .AddGraphTypes(ServiceLifetime.Scoped);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Student APP", Version = "v1" });
@@ -74,6 +77,7 @@ namespace StudentApp
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseGraphQL<AppSchema>();
             app.UseAuthentication();
             app.UseAuthorization();
 

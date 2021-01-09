@@ -17,6 +17,10 @@ C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentA
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\DnsClient.dll
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\GraphQL.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\GraphQL-Parser.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\GraphQL.Server.Core.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\GraphQL.Server.Transports.AspNetCore.dll
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\MailKit.dll
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\MediatR.dll
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
@@ -46,6 +50,9 @@ C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentA
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\System.Reactive.Core.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\System.Reactive.Interfaces.dll
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\System.Reactive.Linq.dll
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll
