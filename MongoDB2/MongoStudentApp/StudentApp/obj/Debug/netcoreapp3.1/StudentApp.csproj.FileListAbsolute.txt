@@ -67,3 +67,4 @@ C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentA
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\obj\Debug\netcoreapp3.1\StudentApp.dll
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\obj\Debug\netcoreapp3.1\StudentApp.pdb
 C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\obj\Debug\netcoreapp3.1\StudentApp.genruntimeconfig.cache
+C:\Users\ahmed.mahbub\Desktop\Dot-Net-Practice\MongoDB2\MongoStudentApp\StudentApp\bin\Debug\netcoreapp3.1\GraphQL.Server.Ui.Playground.dll

@@ -6,13 +6,16 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using Command;
+using GraphQL;
 using GraphQL.Server;
+using GraphQL.Server.Ui.Playground;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -37,7 +40,7 @@ namespace StudentApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(o => o.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore); ;
             services.AddOptions(); 
             services.AddMediatR(Assembly.GetExecutingAssembly());
             services.AddSingleton(typeof(IRepository), typeof(Repository));
@@ -58,8 +61,16 @@ namespace StudentApp
                 };
             });
             services.AddAuthorization();
+
+            services.AddScoped<IDependencyResolver>(s => new FuncDependencyResolver(s.GetRequiredService));
+            services.AddScoped<AppSchema>();
             services.AddGraphQL(o => { o.ExposeExceptions = false; })
                                 .AddGraphTypes(ServiceLifetime.Scoped);
+            services.Configure<IISServerOptions>(options =>
+            {
+                options.AllowSynchronousIO = true;
+            });
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Student APP", Version = "v1" });
@@ -78,6 +89,7 @@ namespace StudentApp
 
             app.UseRouting();
             app.UseGraphQL<AppSchema>();
+            app.UseGraphQLPlayground(options: new GraphQLPlaygroundOptions());
             app.UseAuthentication();
             app.UseAuthorization();
 

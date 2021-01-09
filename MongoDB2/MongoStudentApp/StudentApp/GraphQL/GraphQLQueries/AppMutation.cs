@@ -14,7 +14,7 @@ namespace StudentApp.GraphQL.GraphQLQueries
         public AppMutation(IRepository repository)
         {
             Field<StringGraphType>(
-                "CreatePost",
+                "createPost",
                 arguments: new QueryArguments(new QueryArgument<NonNullGraphType<CreatePostType>> { Name = "post" }),
                 resolve: context =>
                 {
