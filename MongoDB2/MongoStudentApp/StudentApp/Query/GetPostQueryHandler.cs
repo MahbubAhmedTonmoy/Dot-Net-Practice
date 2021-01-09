@@ -24,14 +24,19 @@ namespace StudentApp.Query
         {
             var ProjectDictionary = new Dictionary<string, object>
             {
-               { "PostDetails", 1 },
-               { "PostedBy.Email", 1}
+                { "PostDetails", 1 },
+                { "PostedBy.Email", 1},
+                { "Comment.CommentDetails", 1 },
+                { "Comment.CommentedAt", 1 }
             };
             var filter = GetFilter(request);
             var queryresult = ((Repository)this.repository).GetCollection<Post>()
                 .Aggregate(new AggregateOptions { AllowDiskUse = true })
+                .Skip(request.PageNumber * request.PageSize)
+                .Limit(request.PageSize)
                 .Lookup("Users", $"{nameof(Post.UserId)}", "_id", "PostedBy")
                 .Match(filter)
+                .Lookup("Comments", "_id", "PostId", "Comment")
                 .Project(new BsonDocument(ProjectDictionary));
             var a = GetResultAfterQueryExecution(queryresult);
             return a;
